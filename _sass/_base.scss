@@ -80,6 +80,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+    text-align: center;
     font-family: $secondary-font-family;
     font-weight: 400;
 }
@@ -98,8 +99,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $pop-color;
     }
 }
 
@@ -128,10 +128,12 @@ blockquote {
  */
 pre,
 code {
+    font-family: $tertiary-font-family;
     font-size: 15px;
-    border: 1px solid $gray-light;
+    color: $gray-dark;
+    border: 1px solid $gray-dark;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: $gray-light;
 }
 
 code {

@@ -2,10 +2,9 @@
 
   <div class="wrapper">
 
-    <div class="site-avatar"
-      <a href="https://linkedin.com/in/daveseeman" class="avatar" target="_blank" title="Title"><img src="/img/avatar.jpg" alt="Title"></a><br>
-      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a><br>
-    </div>
+    <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="avatar" target="_blank" title="{{ site.title }}"><img src="/src/avatar.jpg" alt="{{ site.title }}"></a><br>
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <p class="site-subtitle">{{ site.subtitle }}</p>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -17,6 +16,7 @@
       </a>
 
       <div class="trigger">
+        <a class="page-link" href="{{ site.baseurl }}">Home</a>
         {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>

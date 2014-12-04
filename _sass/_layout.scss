@@ -2,8 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $brand-color;
-    border-bottom: 1px solid $gray-light;
+    border-bottom: 2px solid $gray-light;
     min-height: 56px;
     text-align: center;
     // Positioning context for the mobile navigation icon
@@ -15,7 +14,7 @@
   -webkit-border-radius: $avatar-size / 2;
   -moz-border-radius: $avatar-size / 2;
   border-radius: $avatar-size / 2;
-  padding: 15px 0px 15px 0px;
+  margin: 15px 0px 15px 0px;
 }
 
 .site-title {
@@ -30,13 +29,21 @@
     }
 }
 
+.site-subtitle {
+    color: $gray-light;
+    font-family: $secondary-font-family;
+    font-size: 1em;
+    line-height: 0.1em;
+    margin: 15px 0px 10px 0px;
+}
+
 .site-nav {
+    color: $brand-color;
     width: 50%;
     margin-right: auto;
     margin-left: auto;
     font-family: $secondary-font-family;
     line-height: 56px;
-    border-top: 1px solid $gray-light;
 
     .menu-icon {
         display: none;

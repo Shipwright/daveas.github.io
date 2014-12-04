@@ -9,17 +9,13 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 }
-
-site-avatar {
-  width: 100%;
-}
-
 .avatar img {
   width: $avatar-size;
   height: $avatar-size;
   -webkit-border-radius: $avatar-size / 2;
   -moz-border-radius: $avatar-size / 2;
   border-radius: $avatar-size / 2;
+  padding: 15px 0px 15px 0px;
 }
 
 .site-title {

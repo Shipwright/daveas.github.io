@@ -12,6 +12,7 @@ $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
+$avatar-size:      100px;
 
 $text-color:       #111;
 $background-color: #ffffff;
@@ -20,8 +21,8 @@ $brand-color:      #2c3e50;
 $pop-color:        #16a085;
 
 $gray-color:       #7f8c8d;
-$gray-color-light: lighten($gray-color, 25%);
-$gray-color-dark:  darken($gray-color, 25%);
+$gray-light: lighten($gray-color, 25%);
+$gray-dark:  darken($gray-color, 25%);
 
 // Width of the content area
 $content-width:    800px;

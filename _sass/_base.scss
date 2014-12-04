@@ -45,6 +45,12 @@ img {
     vertical-align: middle;
 }
 
+.page-content img {
+  display: block;
+  text-align: center;
+  margin: 5px auto 5px auto;
+}
+
 
 
 /**
@@ -94,13 +100,14 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
+    &:hover {
+      color: $pop-color;
     }
 
-    &:hover {
-        color: $pop-color;
+    &:visited {
+      color: darken($brand-color, 15%);
     }
+
 }
 
 

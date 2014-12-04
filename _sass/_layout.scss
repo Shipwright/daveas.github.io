@@ -189,7 +189,7 @@
 }
 
 .post-list {
-    margin-left: 0;
+    text-align: center;
     list-style: none;
 
     > li {
@@ -198,6 +198,7 @@
 }
 
 .post-meta {
+    text-align: center;
     font-size: $small-font-size;
     color: $gray-color;
 }
@@ -205,6 +206,13 @@
 .post-link {
     display: block;
     font-size: 24px;
+}
+
+.rss-subscribe {
+  width: 150px;
+  margin: 20px auto 0px auto;
+  text-align: center;
+  border: 3px solid $pop-color;
 }
 
 

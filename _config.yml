@@ -1,6 +1,7 @@
 # Site settings
 title: Dave Seeman
 subtitle: Musings on ideas, projects, and startups. And life.
+footertitle: Find Me
 email: daveseeman12@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I am a Design Engineer living in Knoxville, TN with my wife.

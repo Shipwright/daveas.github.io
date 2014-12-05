@@ -6,9 +6,9 @@ date: 2014-09-24
 
 As a recent grad who is no longer running a business, I am looking to join one. In my job search I came across a very cool company that seemed to be very active in launching new ventures and projects. It just so happens I had met one of their employees in the past so I reached out to her to see if they were hiring.
 
-Luckily, she was gracious enough to forward along my information and we eventually got to talking. Their interview process (which is not quite over) involved coming up with a project for the company so I created a simple one-page website to showcase my project. I also used some design skills I picked up while working on [Willow List](http://godownwind.co/tag/willowlist) to make this nifty logo:
+Luckily, she was gracious enough to forward along my information and we eventually got to talking. Their interview process (which is not quite over) involved coming up with a project for the company so I created a simple one-page website to showcase my project. I also used some design skills I picked up while working on Willow List to make this nifty logo:
 
-![](http://postachio-images.s3-website-us-east-1.amazonaws.com/1c303cdec342ea88d68a771630c26be0.png)
+![text](http://postachio-images.s3-website-us-east-1.amazonaws.com/1c303cdec342ea88d68a771630c26be0.png)
 
 ### The Value of Coding
 

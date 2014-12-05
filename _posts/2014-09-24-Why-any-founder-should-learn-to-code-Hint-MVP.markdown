@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why any founder should learn to code (Hint: MVP)
+title: Why any founder should learn to code (Hint - MVP)
 date: 2014-09-24
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learn to Code: Codeacademy vs. Treehouse
+title: Learn to Code - Codeacademy vs. Treehouse
 date: 2014-06-24
 ---
 

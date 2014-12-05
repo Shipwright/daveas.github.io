@@ -3,6 +3,7 @@ layout: post
 title: Multitasking with BetterSnapTool
 date: 2014-11-04
 ---
+
 I have recently started to pick up some web design and web development skills because I want to create my own web applications. I was learning with [One Month Rails](http://mbsy.co/9tG6V) and using a program called [BetterSnapTool](https://itunes.apple.com/us/app/bettersnaptool/id417375580?mt=12) to organize my desktop in a way that fit how I wanted to learn.
 
 In the preferences section you can create custom keyboard shortcuts to make this a much more useful application. Highlighted in green, I assigned [opt]+[#] to snap the window to a [quadrant](http://www.purplemath.com/modules/plane3.htm).  

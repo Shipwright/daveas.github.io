@@ -3,6 +3,7 @@ layout: post
 title: Readible
 date: 2013-05-01
 ---
+
 UPDATE - March 10th:  
 I read on Tech Crunch about a company called [Rooster](http://techcrunch.com/2014/03/10/rooster-serialized-fiction/?ncid=rss) that even used the same terminology as Readible - “bite sized chunks". I am so pumped that someone is doing this, I cannot wait to try their product!
 
@@ -14,4 +15,3 @@ Readible was an idea for a ebook subscription service that would deliver content
 Nevertheless, I learned quite a few valuable lessons from Readible and got some small time press. Below was a fun piece that my University did for their “Big Orange Big Ideas" campaign. They interviewed students with “Big Ideas" - mine at the time was a project called Readible. Now there are a host of similar startups that are coming along, but none have turned into shining stars as of yet. My two favorites so far are [Scribd](http://www.scribd.com/subscribe) and [Riffle](http://www.rifflebooks.com).
 
 [Download PDF](http://postachio-files.s3-website-us-east-1.amazonaws.com/2ad59d714c62bedc2aa20727191f723a.pdf)
-

@@ -3,18 +3,10 @@ layout: post
 title: What I Learned from Starting a Business in College
 date: 2014-06-26
 ---
-- 
 
-Ownership >> Money >> Advice
-
-- 
-
-Preparation is Paramount
-
-- 
-
-Wait to Spend
-
+- Ownership >> Money >> Advice
+- Preparation is Paramount
+- Wait to Spend
 - Or just don’t
 - Put it in Writing
 - Welcome Serendipity
@@ -30,4 +22,3 @@ Wait to Spend
 I’ve heard all of these things before. And yet, we all end up learning them the hard way eventually. But in the end...
 
 ![](http://postachio-images.s3-website-us-east-1.amazonaws.com/e854fa10d95117260732b32f829e69df.jpg)
-

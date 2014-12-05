@@ -3,11 +3,12 @@ layout: post
 title: My Engagement Story
 date: 2014-02-25
 ---
+
 February 18th, I get a call from the jeweler in Denver, Colorado.
 
 In a thick Colorado accept that sounds almost Canadian he calmly informs me:
 
-> “Hey there Dave, this is Bill. Just wanted to let ya know that Kimberly’s ring is done early so you should have it by Thursday."
+>“Hey there Dave, this is Bill. Just wanted to let ya know that Kimberly’s ring is done early so you should have it by Thursday."
 
 Panic Set In. I had been planning to ask her two weeks from this Saturday! Would everyone be able to make it in? Can I pull off the plan?
 
@@ -35,11 +36,10 @@ I wait for what seems like hours until Maddie drops Kim off at the river. Kim pa
 
 My heart starts pounding when Kim rounds the corner. She starts to cry and cover her gasping expression. When she arrives I tell her,
 
-> "Kimberly, you may not have noticed, but everything we have done today, we did for a reason. I took you to the mountains because I believe that is where we fell in love. On our way back we stopped at Panera because I remember our first date at Panera when I didn’t touch my food because I was so nervous. And you got your nails done, because, well… Kimberly, you are the sweetest girl I know, and I admire how your love is a light for others. You are the only woman who can both love me so well and push me to be a better man. I know that I want to spend the rest of my life with you, so I am so thankful that God put us together on that rainy day. Kimberly,"
+>"Kimberly, you may not have noticed, but everything we have done today, we did for a reason. I took you to the mountains because I believe that is where we fell in love. On our way back we stopped at Panera because I remember our first date at Panera when I didn’t touch my food because I was so nervous. And you got your nails done, because, well… Kimberly, you are the sweetest girl I know, and I admire how your love is a light for others. You are the only woman who can both love me so well and push me to be a better man. I know that I want to spend the rest of my life with you, so I am so thankful that God put us together on that rainy day. Kimberly,"
 
 _I got down on one knee._
 
-> "Will you marry me?"
+>"Will you marry me?"
 
 ![](http://postachio-images.s3-website-us-east-1.amazonaws.com/8e159689f3960765645e023acfe7f214.jpg)
-

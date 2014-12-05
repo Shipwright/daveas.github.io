@@ -3,6 +3,7 @@ layout: post
 title: One Simple Skill to Help You Handle Q&A
 date: 2014-01-15
 ---
+
 After participating in the first “Open Pitch Night" hosted by [EoK](http://www.eokhq.com) and [ACG](http://theangelcapitalgroup.com) I was lucky enough to get to pitch to ACG at the end of a member meeting.
 
 After the event had started I found out that the audience was not limited to ACG members but was in fact open to the public. During the Q&A that followed some of the **non-ACG** audience members decided to pitch into the conversation… pun intended.
@@ -23,6 +24,5 @@ Although this particular scenario may be uncommon in a pitch to a sophisticated 
 
 Try not to do what I did, which was show weakness by getting emotional. I did not quiet the speaker and instead continued to engage his questions as best as I could. Big mistake! My frustration no doubt started to show. This is what you really need to avoid. Like the comedian who can't take anymore haggling, a speaker who shows frustration will lose control to the audience and the dialogue will suffer. Don’t take this advice out of context - showing vulnerability can be a good thing, but only if it is intentional.
 
-When handling a rough crowd, or at least one rougher than anticipated, just lean in. Be kind, but be in command.   
+When handling a rough crowd, or at least one rougher than anticipated, just lean in. Be kind, but be in command.
 Control the audience with lethal politeness!
-

@@ -1,0 +1,12 @@
+---
+layout: post
+title: Readible
+date: 2013-05-01
+---
+<p>UPDATE - March 10th:<br />
+I read on Tech Crunch about a company called <a href="http://techcrunch.com/2014/03/10/rooster-serialized-fiction/?ncid=rss">Rooster</a> that even used the same terminology as Readible - “bite sized chunks". I am so pumped that someone is doing this, I cannot wait to try their product!</p>
+<h3>Bite Sized Books for the Busy Reader</h3>
+<p><img src="http://postachio-images.s3-website-us-east-1.amazonaws.com/1b978d3260acfe37c9b527207632fdbd.png"  style="height: auto;"/><br />
+Readible was an idea for a ebook subscription service that would deliver content in manageable sections to help you read more books.Unfortunately, Readible isn't being pursued any longer for two reasons: 1) at the time the industry didn’t seem ready to see the same change as music, movies, and now television and 2) the idea just wasn't within the scope of what was possible for a young dreamer. As a friend and mentor told me, the idea was “in the middle of the road" meaning I was likely to get run over by a much bigger vehicle.</p>
+<p>Nevertheless, I learned quite a few valuable lessons from Readible and got some small time press. Below was a fun piece that my University did for their “Big Orange Big Ideas" campaign. They interviewed students with “Big Ideas" - mine at the time was a project called Readible. Now there are a host of similar startups that are coming along, but none have turned into shining stars as of yet. My two favorites so far are <a href="http://www.scribd.com/subscribe">Scribd</a> and <a href="http://www.rifflebooks.com">Riffle</a>.</p>
+<p><a href="http://postachio-files.s3-website-us-east-1.amazonaws.com/2ad59d714c62bedc2aa20727191f723a.pdf" target="_blank">Download PDF</a></p>

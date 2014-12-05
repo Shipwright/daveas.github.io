@@ -1,0 +1,12 @@
+---
+layout: post
+title: Multitasking with BetterSnapTool
+date: 2014-11-04
+---
+<p>I have recently started to pick up some web design and web development skills because I want to create my own web applications. I was learning with <a href="http://mbsy.co/9tG6V">One Month Rails</a> and using a program called <a href="https://itunes.apple.com/us/app/bettersnaptool/id417375580?mt=12">BetterSnapTool</a> to organize my desktop in a way that fit how I wanted to learn. </p>
+<p>In the preferences section you can create custom keyboard shortcuts to make this a much more useful application. Highlighted in green, I assigned [opt]+[#] to snap the window to a <a href="http://www.purplemath.com/modules/plane3.htm">quadrant</a>.<br />
+<img src="http://postachio-images.s3-website-us-east-1.amazonaws.com/6e4477b91d0f812c91229b0e7499c22c.png"  style="height: auto;"/></p>
+<h3>I love an organized desktop!</h3>
+<p>Adding those shortcuts made it easy to arrange the windows so I am 1-click away from any window. Sure I could swipe over with full screen apps or use cmd+tab to switch between active apps, but I found this to be by far the most effective workflow.</p>
+<p><img src="http://postachio-images.s3-website-us-east-1.amazonaws.com/5abc764b4037f6cb3918f85c9730a802.png"  style="height: auto;"/></p>
+<h1>Thanks BetterSnapTool</h1>

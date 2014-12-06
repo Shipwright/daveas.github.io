@@ -186,7 +186,7 @@
 }
 
 .post-list {
-    text-align: center;
+    text-align: left;
     list-style: none;
 
     > li {
@@ -195,7 +195,7 @@
 }
 
 .post-meta {
-    text-align: center;
+    text-align: left;
     font-size: $small-font-size;
     color: $gray-color;
 }

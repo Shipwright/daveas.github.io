@@ -9,8 +9,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
@@ -22,8 +20,6 @@ body {
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -150,6 +146,21 @@ pre {
     }
 }
 
+/**
+ * Tables
+ */
+ table, td, th {
+   margin: 5px auto 10px auto;
+   border-collapse:collapse;
+   border: 1px solid $brand-color;
+ }
+ td, th {
+   padding: 5px;
+ }
+ th {
+   background-color: $pop-color;
+   color: white;
+ }
 
 
 /**

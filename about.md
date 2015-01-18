@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-###Hi, I’m Dave Seeman.
+### Hi, I’m Dave Seeman.
 
 Born in Cincinnati OH, raised in Franklin TN, studied and stayed in Knoxville TN.
 

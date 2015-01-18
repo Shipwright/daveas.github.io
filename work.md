@@ -4,21 +4,16 @@ title: Work
 permalink: /work/
 ---
 
-###Hi, I’m Dave Seeman.
+### Projects:
 
-###Edu & Certs:
+| Project | Preview |
+| :- | :- | :-: |
+| Jekyll Blog | [Keep Browsing](/) |
+| Google Type | [The Shipwrecked Man and The Sea](http://wlo.li/google-type/#dseeman)
 
-- B.S.M.E. from [UTK](http://twitter.com/UTK_COE) '14
-- Engineer Intern ([EI](/src/daveseeman-ei.pdf)) '14
-- Solidworks Cert
-- FrontEnd/Rails/iOS
+### Credentials:
 
-###Products:
-
-- Physical
-- Digital
-
-###Where I work:
-
-- URS
-- Willow List (closed)
+| Credential | Preview |
+| :- | :-: |
+| B.S. ME '14 | [UTK](http://mabe.utk.edu) |
+| Engineer Intern '14' | [EI <i class="fa fa-file-text"></i>](/src/daveseeman-ei.pdf) |

@@ -4,18 +4,26 @@ layout: default
 
 <div class="home">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="snippet">
+    <!-- about me -->
+  </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="snippet">
+    <!-- current project -->
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+  <div class="snippet">
+    <ul class="post-list">
+      {% for post in site.posts limit:1 %}
+        <li>
+          <h2> &#9872; {{ post.title }}</h2>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          {{ post.excerpt | truncatehtml | truncatewords: 50 }}
+          <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 
 </div>

@@ -84,7 +84,7 @@ li {
 h1, h2, h3, h4, h5, h6 {
     font-family: $secondary-font-family;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
 }
 
 /**
@@ -97,6 +97,17 @@ a {
     &:hover {
       color: $pop-color;
     }
+}
+
+p {
+  a {
+      color: $pop-color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+  }
 }
 
 

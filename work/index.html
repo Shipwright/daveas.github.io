@@ -7,13 +7,6 @@ permalink: /work/
 <div class="home">
 
   <ul>
-    {% for project_hash in site.data.projects %}
-    {% assign project = project_hash[1] %}
-      <li>
-        <a href="https://github.com/{{ project.name }}">{{ project.name }}</a>
-        ({{ project.members | size }} members)
-      </li>
-    {% endfor %}
   </ul>
 
 </div>

@@ -6,8 +6,14 @@ permalink: /project/
 
 <div class="home">
 
-  <ul>
-    Project
+  <ul class="project-list">
+    {% for post in site.projects %}
+      <li>
+        <h2><a class="project-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <span class="project-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {{ post.content }}
+      </li>
+    {% endfor %}
   </ul>
 
 </div>

@@ -10,8 +10,8 @@ permalink: /writing/
     {% for post in site.posts %}
       <li>
         <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <div class="inner-wrapper">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <div>
           {{ post.excerpt | truncatehtml | truncatewords: 30 }}
           <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
         </div>

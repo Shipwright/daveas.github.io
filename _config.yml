@@ -6,10 +6,8 @@ description: > # this means to ignore newlines until "baseurl:"
   I like to write about productivity, learning, and creating products through design and engineering.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wlo.li" # the base hostname & protocol for your site
-# avatar: "/src/avatar.jpg"
 twitter_username:   dave_seeman
 github_username:    dseeman
 linkedin_username:  daveseeman
 
 # Build settings
-paginate: 5;

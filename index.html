@@ -12,15 +12,16 @@ layout: default
     <!-- current project -->
   </div>
 
-
   <div class="snippet">
     <ul class="post-list">
       {% for post in site.posts limit:1 %}
         <li>
           <h2> &#9872; {{ post.title }}</h2>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          {{ post.excerpt | truncatehtml | truncatewords: 50 }}
-          <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
+          <div class="inner-wrapper">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            {{ post.excerpt | truncatehtml | truncatewords: 50 }}
+            <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
+          </div>
         </li>
       {% endfor %}
     </ul>

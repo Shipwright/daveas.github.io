@@ -11,3 +11,5 @@ github_username:    dseeman
 linkedin_username:  daveseeman
 
 # Build settings
+collections:
+- projects

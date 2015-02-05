@@ -1,15 +1,19 @@
 ---
 layout: default
-title: Project
-permalink: /project/
+title: Work
+permalink: /work/
 ---
+
+<div class="inner-wrapper">
+  {% markdown work.md %}
+</div>
 
 <div class="home">
 
   <ul class="project-list">
     {% for post in site.projects %}
       <li>
-        <h2><a class="project-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <h2 class="project-title">{{ post.title }}</h2>
         <span class="project-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         {{ post.content }}
       </li>

@@ -11,5 +11,10 @@ github_username:    dseeman
 linkedin_username:  daveseeman
 
 # Build settings
+gems:
+- jemoji
+- jekyll-sitemap
+- jekyll_include_markdown
+
 collections:
 - projects

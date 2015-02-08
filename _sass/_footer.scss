@@ -2,17 +2,18 @@
 * Site footer
 */
 
-.footer-social {
-  margin: auto;
+.site-footer {
+  // border-top: 2px solid $pop-color;
+  padding: $spacing-unit;
+  clear:both;
+  margin: 0px auto 0px auto;
   text-align:center;
+}
+
+.footer-social {
   ul {
     li {
       display:inline;
     }
   }
-}
-
-.site-footer {
-  // border-top: 2px solid $pop-color;
-  padding: $spacing-unit;
 }

@@ -6,40 +6,18 @@ layout: default
 
   <div class="inner-wrapper">
 
-    {% markdown %}{% include about.md %}{% endmarkdown %}
-
-    <script type="text/javascript">
-      var feed = new Instafeed({
-        get: 'user',
-        limit: 1,
-        userId: 15087285,
-        accessToken: '15087285.467ede5.40e2b41931bd41b1ad070045ac8bdf12'
-      });
-      feed.run();
-      </script>
-    <div id="instafeed"></div>
-
-<!--
-// filter: function(image) {
-//   return image.tags.indexOf('awesomewife') >= 0;
-// }
-// limit: 1,
-// accessToken: '15087285.467ede5.40e2b41931bd41b1ad070045ac8bdf12'
-// get: 'user',
-// userId: 15087285,
-// template: '<a class = "avatar" href="{{link}}"><img src="{{image}}" /></a>'
--->
-
+    {{ site.description }}
+    {% include instafeed.html %}
 
   </div>
 
     <ul class="post-list">
       {% for post in site.projects limit:1 %}
         <li>
-          <h1>Latest Work:</h1>
-          <h2>{{ post.title }}</h2>
+          <h2 class="snippet-header">Latest Work:</h2>
           <div class="inner-wrapper">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3>{{ post.title }}</h3>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br>
             {{ post.excerpt | truncatehtml | truncatewords: 50 }}
             <a href="{{ post.url | prepend: site.baseurl }}">View Project</a>
           </div>
@@ -50,9 +28,9 @@ layout: default
     <ul class="post-list">
       {% for post in site.posts limit:1 %}
         <li>
-          <h1>Latest Writing:</h1>
-          <h2>{{ post.title }}</h2>
+          <h2 class="snippet-header">Latest Writing:</h2>
           <div class="inner-wrapper">
+          <h3>{{ post.title }}</h3>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             {{ post.excerpt | truncatehtml | truncatewords: 50 }}
             <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>

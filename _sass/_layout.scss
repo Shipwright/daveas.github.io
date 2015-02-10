@@ -31,6 +31,12 @@
     text-align: left;
 }
 
+.snippet-header {
+  display: inline;
+  border-bottom: 2px solid $pop-color;
+  margin-bottom: 15px;
+}
+
 .rss-subscribe {
   width: 150px;
   margin: 20px auto 0px auto;

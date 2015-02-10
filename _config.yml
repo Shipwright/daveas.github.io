@@ -2,10 +2,13 @@
 title: Um, Dave?!
 email: daveseeman12@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am a Design Engineer living in Knoxville, TN with my wife.
-  I like to write about productivity, learning, and creating products through design and engineering.
+  <h3>Hi, I’m Dave Seeman.</h3>
+  <p>I'm a Design Engineer living in Knoxville, TN with my wife, Kimberly (that's us below).
+  Besides being an engineer, I am also a wannabe designer, marketer, and programmer.
+  If anything, I just have too many interests.
+  Most of these turn into projects because I have fun when I'm learning and making something new.</p>
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://wlo.li" # the base hostname & protocol for your site
+url: "http://dseeman.github.io" # the base hostname & protocol for your site
 twitter_username:   dave_seeman
 github_username:    dseeman
 linkedin_username:  daveseeman
@@ -14,4 +17,5 @@ linkedin_username:  daveseeman
 markdown: kramdown
 
 collections:
--  projects
+  projects:
+  output: true

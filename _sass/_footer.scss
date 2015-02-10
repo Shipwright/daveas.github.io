@@ -3,16 +3,15 @@
 */
 
 .site-footer {
-  // border-top: 2px solid $pop-color;
-  padding: $spacing-unit;
-  clear:both;
-  margin: 0px auto 0px auto;
-  text-align:center;
+  width: 80%;
+  text-align: center;
+  margin: 0px auto;
 }
 
 .footer-social {
   ul {
-    li {
+    margin: 0px auto;
+  li {
       display:inline;
     }
   }

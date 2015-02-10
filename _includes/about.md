@@ -1,10 +1,7 @@
 ### Hi, I’m Dave Seeman.
 
-Born in Cincinnati OH, raised in Franklin TN, studied and stayed in Knoxville TN.
+I'm an Engineer living in Knoxville, TN with my wife, Kimberly (that's her recently in the picture below).
 
-  I take from my father, who was an inventor of sorts. The family affectionately calls him MacGyver. I was bustling with ideas when I was in high school so I decided to study Mechanical Engineering so I could turn my ideas into realities. During my studies, I realized that meant I wanted to be an entrepreneur. So I changed focus. I co-founded a company called Willow List, learned a lot, “failed fast" (do we really brag about that?), and now I work as a Design Engineer and do lots of projects on the side.
+I take from my father, who was an inventor of sorts. I studied Mechanical Engineering to turn my ideas for products into tangible products. I am also a wannabe designer, marketer, and programmer. If anything, I am an autodidact[^1].
 
-  I’m married to this beautiful girl in the picture below; her name is Kimberly. I swear sometimes that she’s a dream. We love to get outside together and enjoy the mountains near Knoxville. Outside of work I try to spend a few weekends here and there hiking or sailing though I can’t do the latter nearly as often as I’d like. I’m currently taking a hiatus from volunteer activities but I hope to soon return to tutoring high school kids in math and science.
-
-All the best,
-Dave
+[^1]: Autodidacticism (also autodidactism) or self-education is the act of teaching oneself about a subject or subjects in which one has had little to no formal education. [source](http://en.wikipedia.org/wiki/Autodidacticism)

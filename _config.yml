@@ -1,12 +1,12 @@
 # Site settings
 title: Um, Dave?!
+author: Dave Seeman
 email: daveseeman12@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  <h3>Hi, I’m Dave Seeman.</h3>
-  <p>I'm a Design Engineer living in Knoxville, TN with my wife, Kimberly (that's us below).
-  Besides being an engineer, I am also a wannabe designer, marketer, and programmer.
-  If anything, I just have too many interests.
-  Most of these turn into projects because I have fun when I'm learning and making something new.</p>
+  I'm a Design Engineer living in Knoxville, TN with my beautiful wife, Kimberly. (That's a recent picture of us on the right)<br><br>
+  When I'm not at work or with my wife, I am probably having fun working on a side-project.
+  If I'm programming it's probably in Ruby and if I'm using CAD it's definitely Onshape.
+  Either way, I'm having fun when I'm learning and creating something new.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dseeman.github.io" # the base hostname & protocol for your site
 twitter_username:   dave_seeman

@@ -4,39 +4,38 @@ layout: default
 
 <div class="home">
 
-  <div class="inner-wrapper">
+  <div class="wrapper">
 
-    {{ site.description }}
-    {% include instafeed.html %}
+    <div id="site-description">
+      <h3>Hi, I'm {{ site.author }}</h3>
+      {% include instafeed.html %}
+      {{ site.description }}
+    </div>
 
-  </div>
-
+    <h2 class="snippet-header">Latest Work:</h2>
     <ul class="post-list">
       {% for post in site.projects limit:1 %}
         <li>
-          <h2 class="snippet-header">Latest Work:</h2>
-          <div class="inner-wrapper">
           <h3>{{ post.title }}</h3>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br>
             {{ post.excerpt | truncatehtml | truncatewords: 50 }}
             <a href="{{ post.url | prepend: site.baseurl }}">View Project</a>
-          </div>
         </li>
       {% endfor %}
     </ul>
 
+    <h2 class="snippet-header">Latest Writing:</h2>
     <ul class="post-list">
       {% for post in site.posts limit:1 %}
         <li>
-          <h2 class="snippet-header">Latest Writing:</h2>
-          <div class="inner-wrapper">
           <h3>{{ post.title }}</h3>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             {{ post.excerpt | truncatehtml | truncatewords: 50 }}
             <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
-          </div>
         </li>
       {% endfor %}
     </ul>
+
+  </div>
 
 </div>

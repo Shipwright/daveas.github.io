@@ -1,21 +1,25 @@
 <script type="text/javascript">
-  var feed = new Instafeed({
-    get: 'user',
-    limit: 1,
-    userId: 15087285,
-    accessToken: '15087285.467ede5.40e2b41931bd41b1ad070045ac8bdf12'
-  });
-  feed.run();
-  </script>
+var feed = new Instafeed({
+  get: 'user',
+  userId: 15087285,
+  resolution: 'low_resolution',
+  accessToken: '15087285.467ede5.40e2b41931bd41b1ad070045ac8bdf12',
+  filter: function(image) {
+    return image.tags.slice(1).indexOf('wife')>=0;
+  }
+});
+feed.run();
+</script>
+
 <div id="instafeed"></div>
 
 <!--
-// filter: function(image) {
-//   return image.tags.indexOf('awesomewife') >= 0;
-// }
-// limit: 1,
-// accessToken: '15087285.467ede5.40e2b41931bd41b1ad070045ac8bdf12'
-// get: 'user',
-// userId: 15087285,
-// template: '<a class = "avatar" href="{{link}}"><img src="{{image}}" /></a>'
+filter: function(image) {
+  return image.tags.indexOf('awesomewife') >= 0;
+}
+
+clientId: '1f693321b8be43b29cab6bc55b3f59f1'
+userId: 15087285,
+accessToken: '15087285.467ede5.40e2b41931bd41b1ad070045ac8bdf12'
+
 -->

@@ -6,14 +6,23 @@ permalink: /work/
 
 <div class="home">
 
-  <ul class="project-list">
-    {% for post in site.projects %}
+  <div class="wrapper">
+
+    <ul class="post-list">
+      {% for post in site.projects %}
       <li>
-        <h2 class="project-title">{{ post.title }}</h2>
-        <span class="project-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        {{ post.content }}
+        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <div class="inner-wrapper">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <div class="post-excerpt">
+            {{ post.excerpt | truncatehtml | truncatewords: 30 }}
+            <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
+          </div>
+        </div>
       </li>
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </ul>
+
+  </div>
 
 </div>

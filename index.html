@@ -12,26 +12,26 @@ layout: default
       {{ site.description }}
     </div>
 
-    <h2 class="snippet-header">Latest Work:</h2>
     <ul class="post-list">
       {% for post in site.projects limit:1 %}
         <li>
-          <h3>{{ post.title }}</h3>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br>
-            {{ post.excerpt | truncatehtml | truncatewords: 50 }}
-            <a href="{{ post.url | prepend: site.baseurl }}">View Project</a>
+          <h3>Latest Work: {{ post.title }}</h3>
+            <div class="post-excerpt">
+              {{ post.excerpt | truncatehtml | truncatewords: 50 }}
+              <a href="{{ post.url | prepend: site.baseurl }}">View Project</a>
+            </div>
         </li>
       {% endfor %}
     </ul>
 
-    <h2 class="snippet-header">Latest Writing:</h2>
     <ul class="post-list">
       {% for post in site.posts limit:1 %}
         <li>
-          <h3>{{ post.title }}</h3>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            {{ post.excerpt | truncatehtml | truncatewords: 50 }}
-            <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
+          <h3>Latest Writing: {{ post.title }}</h3>
+            <div class="post-excerpt">
+              {{ post.excerpt | truncatehtml | truncatewords: 50 }}
+              <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
+            </div>
         </li>
       {% endfor %}
     </ul>

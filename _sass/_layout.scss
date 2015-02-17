@@ -13,6 +13,7 @@
 .post-list {
     text-align: left;
     list-style: none;
+    margin: 0px 0px $spacing-unit 0px;
 
     > li {
         margin-bottom: $spacing-unit;
@@ -31,11 +32,14 @@
     text-align: left;
 }
 
-.snippet-header {
-  display: inline;
-  border-bottom: 2px solid $pop-color;
-  margin-bottom: $spacing-unit;
+.post-excerpt {
+  display: block;
+  line-height: $base-line-height;
 }
+
+/**
+ * Page Specific
+ */
 
 #site-description {
   text-align: justify;
@@ -52,35 +56,12 @@
   margin: 0px 0px 10px 20px;
 }
 
-.rss-subscribe {
+#rss-subscribe {
   width: 150px;
   margin: 20px auto 0px auto;
   text-align: center;
   border: 3px solid $pop-color;
 }
-
-.project-list {
-    text-align: left;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.project-meta {
-    text-align: left;
-    font-size: $small-font-size;
-    color: $gray-light;
-}
-
-.project-title {
-    display: block;
-    font-size: 24px;
-    text-align: left;
-}
-
-
 
 /**
  * Posts

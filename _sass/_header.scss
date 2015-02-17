@@ -27,7 +27,6 @@
   display: inline;
   float: right;
 
-
   .menu-icon {
     display: none;
   }
@@ -36,9 +35,11 @@
     border-bottom: 2px solid $pop-color;
     line-height: $base-line-height;
     padding-bottom: 5px;
-    // Gaps between nav items, but not on the first one
     &:not(:first-child) {
-      margin-left: 20px;
+      margin-left: 20px; // Gaps between nav items, but not on the first one
+    }
+    @include media-query($on-palm) {
+      border-bottom: 0px;
     }
   }
 
@@ -47,8 +48,8 @@
     top: 9px;
     right: 30px;
     background-color: $background-color;
-    border: 1px solid $gray-light;
-    border-radius: 5px;
+    // border: 1px solid $gray-light;
+    // border-radius: 5px;
     text-align: right;
 
     .menu-icon {
@@ -59,15 +60,6 @@
       line-height: 0;
       padding-top: 10px;
       text-align: center;
-
-      > svg {
-        width: 18px;
-        height: 15px;
-
-        path {
-          fill: $gray-dark;
-        }
-      }
     }
 
     .trigger {

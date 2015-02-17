@@ -2,6 +2,8 @@
 layout: post
 title: Exciting Noob Success - Thanks Codeacademy!
 date: 2014-07-01
+category: writing
+tags: 
 ---
 
 Thanks to Codeacademy and the “inspect element" feature in Safari (Developer tools turned on) I was able to figure out what code I had to add to the source for this theme to center all images and post titles which were both previously left-justified. I just put the code below between immediately after the link to the CSS (so that my formatting will override that of the penso.CSS file).

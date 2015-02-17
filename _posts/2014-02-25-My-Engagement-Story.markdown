@@ -2,6 +2,8 @@
 layout: post
 title: My Engagement Story
 date: 2014-02-25
+category: writing
+tags: 
 ---
 
 February 18th, I get a call from the jeweler in Denver, Colorado.

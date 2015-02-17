@@ -2,6 +2,8 @@
 layout: post
 title: My 2013 Pocket Stats - Top 5%
 date: 2013-12-31
+category: writing
+tags: 
 ---
 
 ![](http://postachio-images.s3-website-us-east-1.amazonaws.com/c3a87e1ec30f46cace70bc282b4ce046.png)

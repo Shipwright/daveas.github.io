@@ -2,6 +2,8 @@
 layout: post
 title: Your Pitch Should Flow Like a Story
 date: 2014-01-13
+category: writing
+tags: 
 ---
 
 I’ve read just about every article that exists (to date) on how to craft your pitch. The more recent posts shy away from hockey stick projections and instead focus on making your pitch engaging by creating a story. That’s nice and all, but I’m kind of tired of how much people are talking about stories these days. Every how-to article on pitching, marketing, or selling, has become all about telling a story and most of those articles don’t actually tell you what the first step in how to tell a good story. You see, story telling is not a ubiquitous skill. Haven’t you ever heard of the struggling writer? We need a better strategy, one that starts from a place of action.

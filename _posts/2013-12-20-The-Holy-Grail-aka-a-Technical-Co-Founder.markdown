@@ -2,6 +2,8 @@
 layout: post
 title: The Holy Grail (aka a Technical Co-Founder)
 date: 2013-12-20
+category: writing
+tags: 
 ---
 
 ![montypythonandtheholygrail.jpg](http://postachio-images.s3-website-us-east-1.amazonaws.com/5ea097749a59260deab4d641abb3d3b2.jpg)

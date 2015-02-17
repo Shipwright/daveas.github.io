@@ -2,6 +2,8 @@
 layout: post
 title: First VC meeting. But more importantly, doodling.
 date: 2013-12-04
+category: writing
+tags: 
 ---
 
 1. Is it disruptive?

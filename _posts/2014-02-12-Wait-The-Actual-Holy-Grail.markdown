@@ -2,6 +2,8 @@
 layout: post
 title: Wait, The Actual Holy Grail!
 date: 2014-02-12
+category: writing
+tags: 
 ---
 
 ![holygrail.jpg](http://postachio-images.s3-website-us-east-1.amazonaws.com/556b4a502f1871678ab622cb5bebf695.jpg)

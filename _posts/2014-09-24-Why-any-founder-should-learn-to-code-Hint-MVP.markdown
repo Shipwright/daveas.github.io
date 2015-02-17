@@ -2,6 +2,8 @@
 layout: post
 title: Why any founder should learn to code (Hint - MVP)
 date: 2014-09-24
+category: writing
+tags: 
 ---
 
 As a recent grad who is no longer running a business, I am looking to join one. In my job search I came across a very cool company that seemed to be very active in launching new ventures and projects. It just so happens I had met one of their employees in the past so I reached out to her to see if they were hiring.

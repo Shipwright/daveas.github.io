@@ -6,26 +6,22 @@ layout: default
 
   <div class="wrapper">
 
-    <div id="site-description">
-      <h3>Hi, I'm {{ site.author }}</h3>
-      {% include instafeed.html %}
-      {{ site.description }}
-    </div>
+    {% include intro.html %}
 
     <ul class="post-list">
-      {% for post in site.projects limit:1 %}
+      {% for post in site.categories.work limit:1 %}
         <li>
           <h3>Latest Work: {{ post.title }}</h3>
             <div class="post-excerpt">
               {{ post.excerpt | truncatehtml | truncatewords: 50 }}
-              <a href="{{ post.url | prepend: site.baseurl }}">View Project</a>
+              <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
             </div>
         </li>
       {% endfor %}
     </ul>
 
     <ul class="post-list">
-      {% for post in site.posts limit:1 %}
+      {% for post in site.categories.writing limit:1 %}
         <li>
           <h3>Latest Writing: {{ post.title }}</h3>
             <div class="post-excerpt">

@@ -2,6 +2,8 @@
 layout: post
 title: Readible
 date: 2013-05-01
+category: writing
+tags: 
 ---
 
 UPDATE - March 10th:  

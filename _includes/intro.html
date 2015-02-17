@@ -1,0 +1,21 @@
+<div id="site-description">
+  <h3>Hi, I'm {{ site.author }}</h3>
+  <div id="instafeed"></div>
+  <p>I'm a Design Engineer living in Knoxville, TN with my beautiful wife and best friend, Kimberly.</p>
+  <p>When I'm not at work or spending quality time with my wife, I am probably having fun working on a side-project. If I'm programming it's probably in Ruby and if I'm using CAD it's definitely Onshape. Either way, I'm having fun when I'm learning and creating something new.</p>
+
+  <script type="text/javascript">
+  var feed = new Instafeed({
+    get: 'user',
+    userId: 15087285,
+    // clientId: '1f693321b8be43b29cab6bc55b3f59f1'
+    resolution: 'low_resolution',
+    accessToken: '15087285.467ede5.40e2b41931bd41b1ad070045ac8bdf12',
+    filter: function(image) {
+      return image.tags.slice(1).indexOf('wife')>=0;
+    }
+  });
+  feed.run();
+  </script>
+
+</div>

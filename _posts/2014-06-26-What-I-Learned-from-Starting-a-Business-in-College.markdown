@@ -2,6 +2,8 @@
 layout: post
 title: What I Learned from Starting a Business in College
 date: 2014-06-26
+category: writing
+tags: 
 ---
 
 - Ownership >> Money >> Advice

@@ -2,6 +2,8 @@
 layout: post
 title: Screenfloat - keep an image in the foreground
 date: 2014-04-23
+category: writing
+tags: 
 ---
 
 Applications for Mac may be mostly dead as mobile becomes dominant. But as Miracle Max proved once before, that which is mostly dead can still come back in the form of a giant fiery pirate.

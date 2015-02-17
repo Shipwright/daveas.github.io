@@ -2,6 +2,8 @@
 layout: post
 title: Back to Bootstrapping
 date: 2014-01-04
+category: writing
+tags: 
 ---
 
 By way of a mutual friend I was introduced to one of the better known developers (among entrepreneurial circles) in Nashville. We met up at Pinewood Social (which rocks by the way) to talk about Willow List.

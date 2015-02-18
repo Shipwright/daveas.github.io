@@ -37,25 +37,6 @@
   line-height: $base-line-height;
 }
 
-/**
- * Page Specific
- */
-
-#site-description {
-  text-align: justify;
-  padding-bottom: $spacing-unit;
-}
-
-#site-description img {
-  float: right;
-  width: $avatar-size;
-  height: $avatar-size;
-  -webkit-border-radius: $avatar-size / 2;
-  -moz-border-radius: $avatar-size / 2;
-  border-radius: $avatar-size / 2;
-  margin: 0px 0px 10px 20px;
-}
-
 #rss-subscribe {
   width: 150px;
   margin: 20px auto 0px auto;

@@ -13,7 +13,7 @@ permalink: /work/
         <div class="inner-wrapper">
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
           <div class="post-excerpt">
-            {{ post.excerpt | truncatehtml | truncatewords: 30 }}
+            {{ post.excerpt }}
             <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
           </div>
         </div>

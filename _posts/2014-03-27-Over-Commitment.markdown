@@ -3,7 +3,8 @@ layout: post
 title: Over Commitment
 date: 2014-03-27
 category: writing
-tags: 
+tags: long-reads, life
+excerpt: "After overcommitting my time I was forced to quit playing music for Webb High School’s Young Life Club. I think it was a valuable lesson learned, so much so that I thought my comments on the subject might make a decent blog post. It feels..."
 ---
 
 After overcommitting my time I was forced to quit playing music for Webb High School’s Young Life Club. I think it was a valuable lesson learned, so much so that I thought my comments on the subject might make a decent blog post. It feels a little uncomfortable opening up, but I hope this helps you understand a little bit more about who I am.

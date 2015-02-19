@@ -11,7 +11,7 @@ layout: default
         <li>
           <h3>Latest Work: {{ post.title }}</h3>
             <div class="post-excerpt">
-              {{ post.excerpt | truncatehtml | truncatewords: 50 }}
+              {{ post.excerpt }}
               <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
             </div>
         </li>
@@ -23,7 +23,7 @@ layout: default
         <li>
           <h3>Latest Writing: {{ post.title }}</h3>
             <div class="post-excerpt">
-              {{ post.excerpt | truncatehtml | truncatewords: 50 }}
+              {{ post.excerpt }}
               <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
             </div>
         </li>

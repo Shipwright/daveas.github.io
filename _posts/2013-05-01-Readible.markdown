@@ -3,7 +3,8 @@ layout: post
 title: Readible
 date: 2013-05-01
 category: writing
-tags: 
+tags:
+excerpt: "I read on Tech Crunch about a company called Rooster that even used the same terminology as Readible - 'bite sized chunks'. I am so pumped that someone is doing this, I cannot wait to try their product..."
 ---
 
 UPDATE - March 10th:  

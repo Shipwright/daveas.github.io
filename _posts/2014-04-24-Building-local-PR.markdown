@@ -3,7 +3,8 @@ layout: post
 title: Building local PR
 date: 2014-04-24
 category: writing
-tags: 
+tags: short-reads
+excerpt: "Shout out to KNS for posting this little blurb about our Vol-Court win!"
 ---
 
 Shout out to KNS for posting this little blurb about our Vol-Court win!

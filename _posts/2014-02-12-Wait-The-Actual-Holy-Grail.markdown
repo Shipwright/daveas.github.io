@@ -3,7 +3,8 @@ layout: post
 title: Wait, The Actual Holy Grail!
 date: 2014-02-12
 category: writing
-tags: 
+tags:
+excerpt: "What do ex-navy pilots and self-taught code warriors have in common? Nothing really, but I’m glad these two met. You see, the ex-navy pilot happens to be my partner, Scott Ewing, who is also involved in..."
 ---
 
 ![holygrail.jpg](http://postachio-images.s3-website-us-east-1.amazonaws.com/556b4a502f1871678ab622cb5bebf695.jpg)

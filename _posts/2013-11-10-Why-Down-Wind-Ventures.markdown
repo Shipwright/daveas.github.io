@@ -4,6 +4,7 @@ title: Why Down Wind Ventures
 date: 2013-11-10
 category: writing
 tags:
+excerpt: "During my last summer in college I took the trip of my life and went kayaking and sailing in British Columbia, Canada through the National Outdoor Leadership School. I spent a lot of time thinking about my life at home, and while I was gone..."
 ---
 
 ![](http://postachio-images.s3-website-us-east-1.amazonaws.com/88989932ae38427c2a666d4f32b7633e.png)  

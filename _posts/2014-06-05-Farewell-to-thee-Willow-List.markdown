@@ -3,7 +3,8 @@ layout: post
 title: Farewell to thee, Willow List
 date: 2014-06-05
 category: writing
-tags: 
+tags:
+excerpt: "Last week I came to a difficult decision. I decided to pull the plug on our startup, Willow List. Willow List started after the summer before my senior year of college, when I read a book called The One Thing. This book challenged me..."
 ---
 
 Last week I came to a difficult decision. I decided to pull the plug on our startup, Willow List.
@@ -12,7 +13,7 @@ Last week I came to a difficult decision. I decided to pull the plug on our star
 
 ### Starting Up
 
-Willow List started when the summer before my senior year of college when I read a book called [The One Thing](http://godownwind.co/go-down-wind). This book challenged me to find the one overarching theme in my professional life. I decided mine had to do with something I had never done before, creating companies out of ideas. So I set out to do it before I graduated, knowing I would need a head-start going into the real world.
+Willow List started after the summer before my senior year of college, when I read a book called [The One Thing](http://godownwind.co/go-down-wind). This book challenged me to find the one overarching theme in my professional life. I decided mine had to do with something I had never done before, creating companies out of ideas. So I set out to do it before I graduated, knowing I would need a head-start going into the real world.
 
 I sorted through my Evernote folder titled “Ideas for Ventures" but I wasn’t compelled by any of the hundreds of ideas within. Instead, inspiration came at the dinner table with my girlfriend (now [fiancé](http://godownwind.co/my-engagement-story)) and our two friends, Natalie and Chase. Nat and Chase were talking about registering because they were to be engaged soon. They mentioned they would not add an espresso machine to their list because of cost. A lightbulb went off because I had been reading about Kickstarter earlier in the day. I thought a registry where each item was it’s own Kickstarter campaign was a pretty fresh idea.
 

@@ -3,7 +3,8 @@ layout: post
 title: Entrepreneurship is About the Hustle
 date: 2013-11-12
 category: writing
-tags: 
+tags:
+excerpt: "As a first time entrepreneur, trying to start a business while in college, I’ve been taking advantage of every business competition I can find in Knoxville. It just so happened that two of these pitches..."
 ---
 
 As a first time entrepreneur, trying to start a business while in college, I’ve been taking advantage of every business competition I can find in Knoxville. It just so happened that two of these pitches the [Vol Court](http://www.andersoncei.utk.edu/competitions/vol-court/) competition, and the [EoK Open Pitch Night](http://www.eokhq.com/profiles/blogs/pitchresults) competition, both fell on the same Tuesday night. One of the judges at the first event, who had apparently been tipped to the fact that I was leaving early to catch my second pitch, commended me for hitting both competitions in one night, as he put it, “hustling, like a real entrepreneur".

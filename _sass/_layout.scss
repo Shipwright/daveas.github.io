@@ -21,9 +21,21 @@
 }
 
 .post-meta {
-    text-align: left;
-    font-size: $small-font-size;
+  text-align: left;
+  font-size: $small-font-size;
+  color: $gray-light;
+  margin: 0px auto;
+
+  li {
+    display: inline;
+  }
+
+  a {
     color: $gray-light;
+    &:hover {
+      color: $pop-color;
+    }
+  }
 }
 
 .post-link {
@@ -66,15 +78,15 @@
 
     a {
       color: $pop-color;
-      text-decoration: underline;
 
       &:hover {
-        color: $text-color;
-        text-decoration: none;
+        color: $brand-color;
+        text-decoration: underline;
+
       }
 
       &:visited {
-        color: $text-color;
+        color: $pop-color;
       }
     }
 

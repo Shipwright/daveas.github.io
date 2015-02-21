@@ -1,12 +1,27 @@
 <footer class="site-footer">
-
   <div class="footer-social">
     <ul>
       <li>
-        <a href="https://twitter.com/{{ site.twitter_username }}">
+        <a href="https://twitter.com/{{ site.social_username }}">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="https://instagram.com/{{ site.social_username }}">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="https://linkedin.com/in/{{ site.social_username }}">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
           </span>
         </a>
       </li>
@@ -18,14 +33,7 @@
           </span>
         </a>
       </li>
-      <li>
-        <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li>
     </ul>
   </div>
+  <p class="footer-meta"><i class="fa fa-copyright"></i> 2014-{{ site.time | date: '20%y' }} | {{ site.author }}</p>
 </footer>

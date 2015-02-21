@@ -1,12 +1,11 @@
 # Site settings
 title: Um, Dave?!
-author: Dave Seeman
+author: Dave A Seeman
 email: daveseeman12@gmail.com
-description: Dave Seeman's blog.
-url: "http://dseeman.github.io"
-twitter_username:   dave_seeman
-github_username:    dseeman
-linkedin_username:  daveseeman
+description: Dave Seeman's blog
+url: "http://daveas.github.io"
+social_username:   daveaseeman
+github_username:   daveas
 
 # Build settings
 markdown: kramdown

@@ -2,8 +2,10 @@
 layout: post
 title: Entrepreneurship is About the Hustle
 date: 2013-11-12
-category: writing
+category: archive
 tags:
+- startups
+- lessons learned
 excerpt: "As a first time entrepreneur, trying to start a business while in college, I’ve been taking advantage of every business competition I can find in Knoxville. It just so happened that two of these pitches..."
 ---
 

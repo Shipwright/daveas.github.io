@@ -2,8 +2,9 @@
 layout: post
 title: My 2013 Pocket Stats - Top 5%
 date: 2013-12-31
-category: writing
+category: archive
 tags:
+- short reads
 excerpt: "I was delighted last december when I received an email that said I had made it to the top 5% of Pocket Readers in 2013. They even prepared a page from Pocket for me where they said: You've read 327,071 words in Pocket this year..."
 ---
 

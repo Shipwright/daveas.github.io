@@ -2,8 +2,11 @@
 layout: post
 title: Serious Startups & The 500k Raise
 date: 2013-12-16
-category: writing
+category: archive
 tags:
+- startups
+- funding
+- bootstrapping
 excerpt: "I’ve been seeking advice on our business plan from a few locals. My conversations have led to the concept of a $500k raise this year, going full force and hiring at least 6 more people within the next 6 months. Additionally, we’ll be..."
 ---
 

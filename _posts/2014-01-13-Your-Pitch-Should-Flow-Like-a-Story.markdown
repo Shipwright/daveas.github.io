@@ -2,8 +2,10 @@
 layout: post
 title: Your Pitch Should Flow Like a Story
 date: 2014-01-13
-category: writing
+category: archive
 tags:
+- pitching
+- startups
 excerpt: "I’ve read just about every article that exists (to date) on how to craft your pitch. The more recent posts shy away from hockey stick projections and instead focus on making your pitch engaging by creating a story. That’s nice and all, but..."
 ---
 

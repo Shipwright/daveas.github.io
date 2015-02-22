@@ -4,7 +4,9 @@ title: One Simple Skill to Help You Handle Q&A
 date: 2014-01-15
 category: archive
 tags:
-- 
+- pitching
+- startups
+- willowlist
 excerpt: "After participating in the first 'Open Pitch Night' hosted by EoK and ACG I was lucky enough to get to pitch to ACG at the end of a member meeting. After the event had started I found out that the audience was not limited to..."
 ---
 

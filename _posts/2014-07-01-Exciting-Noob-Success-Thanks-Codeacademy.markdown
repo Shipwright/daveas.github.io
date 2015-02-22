@@ -4,6 +4,8 @@ title: Exciting Noob Success - Thanks Codeacademy!
 date: 2014-07-01
 category: writing
 tags:
+- coding
+- autodidact
 excerpt: "Thanks to Codeacademy and the 'inspect element' feature in Safari (Developer tools turned on) I was able to figure out what code I had to add to the source for this theme to center all images and post titles which were both previously..."
 ---
 

@@ -2,8 +2,11 @@
 layout: post
 title: Never Pitch the Same Deck Twice
 date: 2014-01-28
-category: writing
+category: archive
 tags:
+- pitching
+- startups
+- willowlist
 excerpt: "I’ve learned that what seems like a good idea whilst captivated by the aura of your presentation glowing on your computer screen late at night, may actually not be a great idea. Creating a compelling visual story for your oratory is a tough..."
 ---
 

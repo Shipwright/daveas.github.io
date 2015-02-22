@@ -2,8 +2,11 @@
 layout: post
 title: Wait, The Actual Holy Grail!
 date: 2014-02-12
-category: writing
+category: archive
 tags:
+- cofounders
+- startups
+- willowlist
 excerpt: "What do ex-navy pilots and self-taught code warriors have in common? Nothing really, but I’m glad these two met. You see, the ex-navy pilot happens to be my partner, Scott Ewing, who is also involved in..."
 ---
 

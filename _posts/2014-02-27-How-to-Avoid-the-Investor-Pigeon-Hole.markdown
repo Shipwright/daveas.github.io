@@ -2,8 +2,12 @@
 layout: post
 title: How to Avoid the Investor "Pigeon Hole"
 date: 2014-02-27
-category: writing
+category: archive
 tags:
+- startups
+- pitching
+- funding
+- willowlist
 excerpt: "Investors hear, read, and otherwise review hundreds if not thousands of pitches per year. For entrepreneurs, this leads to one of the most inconvenient truisms about the investor mindset. The first thing investors do is..."
 ---
 

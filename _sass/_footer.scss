@@ -3,13 +3,13 @@
 */
 
 .site-footer {
-  width: 80%;
   text-align: center;
   margin: 0px auto;
-  padding-bottom:$spacing-unit;
 }
 
 .footer-social {
+  display: inline-block;
+
   ul {
     margin: 0px auto;
   li {
@@ -22,4 +22,6 @@
   text-align: center;
   font-size: $small-font-size;
   color: $gray-light;
+  padding-top: $spacing-unit/2;
+  padding-bottom: $spacing-unit;
 }

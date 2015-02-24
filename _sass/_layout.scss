@@ -49,11 +49,10 @@
   line-height: $base-line-height;
 }
 
-#rss-subscribe {
-  width: 150px;
-  margin: 20px auto 0px auto;
+#archive {
+  margin: 0px auto 0px auto;
+  padding-bottom: $spacing-unit;
   text-align: center;
-  border: 3px solid $pop-color;
 }
 
 /**

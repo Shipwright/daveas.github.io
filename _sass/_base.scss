@@ -225,3 +225,19 @@ pre {
         }
     }
 }
+
+/**
+ * Toggle Divs
+ */
+
+ .toggle {
+
+ }
+
+ .hidden>div {
+     display:none;
+ }
+
+ .visible>div {
+    display:block;
+}

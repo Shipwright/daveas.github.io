@@ -4,10 +4,10 @@ title: Back to Bootstrapping
 date: 2014-01-04
 category: archive
 tags:
-- startups
-- funding
-- bootstrapping
-- willowlist
+- Startups
+- Funding
+- Bootstrapping
+- Willowlist
 excerpt: "By way of a mutual friend I was introduced to one of the better known developers (among entrepreneurial circles) in Nashville. We met up at Pinewood Social (which rocks by the way) to talk about Willow List. I laid out what we did and..."
 ---
 

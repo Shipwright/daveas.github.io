@@ -8,7 +8,7 @@ permalink: /writing/:title/
     <h1 class="post-title">{{ page.title }}</h1>
     <ul class="post-meta">
       <li>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} | </li>
-      {% for tag in page.tags %}<a href="#"><li><i class="fa fa-tag"></i> {{ tag }} </li></a>{% endfor %}
+      {% for tag in page.tags %}<a href="/tags/#{{tag | replace: " ", "+" }}"><li><i class="fa fa-tag"></i> {{ tag }} </li></a>{% endfor %}
     </ul>
   </header>
 

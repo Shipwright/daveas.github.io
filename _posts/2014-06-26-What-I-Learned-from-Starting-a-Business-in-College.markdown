@@ -4,9 +4,9 @@ title: What I Learned from Starting a Business in College
 date: 2014-06-26
 category: writing
 tags:
-- startups
-- cofounders
-- funding
+- Startups
+- Cofounders
+- Funding
 excerpt: "- Ownership trumps Investment
 - Investment trumps Advice
 - Preparation is Paramount

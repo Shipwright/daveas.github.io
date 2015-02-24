@@ -4,9 +4,9 @@ title: The Holy Grail (aka a Technical Co-Founder)
 date: 2013-12-20
 category: archive
 tags:
-- startups
-- cofounders
-- willowlist
+- Startups
+- Cofounders
+- Willowlist
 excerpt: "I mentioned I got to meet with my first VC right? Here’s a little excerpt from our first conversation: Me - “My name is Dave, I have an idea for a web enabled company but I need money to start it..."
 ---
 

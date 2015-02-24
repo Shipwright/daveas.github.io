@@ -4,7 +4,7 @@ title: Multitasking with BetterSnapTool
 date: 2014-11-04
 category: writing
 tags:
-- how i work
+- How I Work
 excerpt: "I have recently started to pick up some web design and web development skills because I want to create my own web applications. I was learning with One Month Rails and using a program called BetterSnapTool to organize my..."
 ---
 

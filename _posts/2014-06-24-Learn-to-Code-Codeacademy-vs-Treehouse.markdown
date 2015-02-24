@@ -4,8 +4,8 @@ title: Learn to Code - Codeacademy vs. Treehouse
 date: 2014-06-24
 category: writing
 tags:
-- coding
-- autodidact
+- Coding
+- Autodidact
 excerpt: "My analysis is simple. When you pay for Treehouse, what you’re really paying for is some more hand-holding. Both are designed with different tracks you can follow, like learning to build a website or..."
 ---
 

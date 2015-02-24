@@ -4,8 +4,7 @@ title: Over Commitment
 date: 2014-03-27
 category: writing
 tags:
-- long-reads
-- true story
+- Stories
 excerpt: "After overcommitting my time I was forced to quit playing music for Webb High School’s Young Life Club. I think it was a valuable lesson learned, so much so that I thought my comments on the subject might make a decent blog post. It feels..."
 ---
 

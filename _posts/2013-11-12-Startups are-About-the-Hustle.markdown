@@ -4,8 +4,8 @@ title: Startups are About the Hustle
 date: 2013-11-12
 category: archive
 tags:
-- willowlist
-- startups
+- Willowlist
+- Startups
 excerpt: "As a first time entrepreneur starting a business in college, I’ve been taking advantage of every business competition I can find in Knoxville. It just so happened that two of these pitches..."
 ---
 

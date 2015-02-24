@@ -4,9 +4,9 @@ title: Why any founder should learn to code (Hint - MVP)
 date: 2014-09-24
 category: writing
 tags:
-- coding
-- startups
-- autodidact
+- Coding
+- Startups
+- Autodidact
 excerpt: "As a recent grad with a defunct startup, I am looking to join a more stable company. In my job search I came across a very cool company that seemed to be very active in launching new ventures and projects. It just so happens I had..."
 ---
 

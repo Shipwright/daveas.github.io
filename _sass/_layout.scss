@@ -56,8 +56,9 @@
 }
 
 .tag-cloud {
+  a {color: #ddd;}
   li {
-    border: 1px solid $pop-color;
+    border: 2px solid $pop-color;
     border-radius: 3px;
     background: $pop-color;
     display: inline-block;

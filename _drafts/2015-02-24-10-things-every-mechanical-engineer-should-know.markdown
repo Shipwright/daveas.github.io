@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "10 Things Every Mechanical Engineer Should Know"
+title: "Ever Mechanical Engineer Should Know..."
 date: "2015-02-24"
 ---
 

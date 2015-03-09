@@ -10,10 +10,8 @@ layout: default
       {% for post in site.categories.work limit:1 %}
         <li>
           <h3>Latest Work: {{ post.title }}</h3>
-            <div class="post-excerpt">
-              {{ post.excerpt }}
-              <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
-            </div>
+          {{ post.excerpt }}
+          <a href="{{ post.url | prepend: site.baseurl }}" target="_blank"><i class="fa fa-arrow-circle-o-right"></i> Continue Reading</a>
         </li>
       {% endfor %}
     </ul>
@@ -22,10 +20,8 @@ layout: default
       {% for post in site.categories.writing limit:1 %}
         <li>
           <h3>Latest Writing: {{ post.title }}</h3>
-            <div class="post-excerpt">
-              {{ post.excerpt }}
-              <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
-            </div>
+          {{ post.excerpt }}
+          <a href="{{ post.url | prepend: site.baseurl }}" target="_blank"><i class="fa fa-arrow-circle-o-right"></i> Continue Reading</a>
         </li>
       {% endfor %}
     </ul>

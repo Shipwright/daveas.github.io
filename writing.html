@@ -9,11 +9,11 @@ permalink: /writing/
   <ul class="post-list">
     {% for post in site.categories.writing %}
     <li>
-      <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" target="_blank">{{ post.title }}</a></h2>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       <div class="post-excerpt">
         {{ post.excerpt }}
-        <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
+        <a href="{{ post.url | prepend: site.baseurl }}" target="_blank"><i class="fa fa-arrow-circle-o-right"></i> Continue Reading</a>
       </div>
     </li>
     {% endfor %}

@@ -2,26 +2,30 @@
 # Frontmatter for main Sass file.
 ---
 @charset "utf-8";
-@import url(http://fonts.googleapis.com/css?family=Bitter|Spinnaker|Cutive+Mono);
+@import url(http://fonts.googleapis.com/css?family=Bitter:400|Merriweather+Sans:300|Oxygen+Mono);
 
 // Variables
-$primary-font-family:   'Spinnaker', sans-serif;
-$secondary-font-family: 'Bitter' serif;
-$tertiary-font-family:  'Cutive Mono', serif;
+$head-font:   'Bitter', sans-serif;
+$body-font:   'Merriweather Sans', serif;
+$code-font:   'Oxygen Mono', serif;
+
 $base-font-size:   20px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-font-weight: 400;
+$small-font-weight: 300;
+$base-line-height: 1.3;
 
-$spacing-unit:     30px;
-$avatar-size:      8em;
+$spacing-unit:    30px;
+$avatar-size:     8em;
 
-$brand-color:      #34495e;
-$pop-color:        #16a085;
-$background-color: #ffffff;
-
-$gray-color:       #7f8c8d;
-$gray-light:  lighten($gray-color, 15%);
-$gray-dark:   darken($gray-color, 25%);
+$gray-color:      #7f8c8d;
+$gray-light:      lighten($gray-color, 15%);
+$gray-dark:       darken($gray-color, 25%);
+$brand-color:     #34495e;
+$pop-color:       #16a085;
+$back-color:      #ffffff;
+$text-color:      #34495e;
+$link-color:      #16a085;
 
 // Width of the content area
 $content-width:    800px;

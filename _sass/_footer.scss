@@ -9,7 +9,13 @@
 
 .footer-social {
   display: inline-block;
-
+  a {
+    color: $brand-color;
+    &:hover {
+      color: $pop-color;
+      text-decoration: underline;
+    }
+  }
   ul {
     margin: 0px auto;
   li {

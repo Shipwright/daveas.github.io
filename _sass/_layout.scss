@@ -39,6 +39,7 @@
 }
 
 .post-link {
+    color: $text-color;
     display: block;
     font-size: 24px;
     text-align: left;
@@ -51,7 +52,7 @@
 }
 
 .tag-cloud {
-  a {color: #ddd;}
+  a {color: $gray-light;}
   li {
     border: 2px solid $pop-color;
     border-radius: 3px;
@@ -82,7 +83,7 @@
 }
 
 .tag-link {
-  font-family: $secondary-font-family;
+  font-family: $head-font;
 }
 
 /**
@@ -106,16 +107,16 @@
     margin-bottom: $spacing-unit;
 
     a {
-      color: $pop-color;
+      color: $link-color;
 
       &:hover {
-        color: $brand-color;
+        color: $pop-color;
         text-decoration: underline;
 
       }
 
       &:visited {
-        color: $pop-color;
+        color: $text-color;
       }
     }
 

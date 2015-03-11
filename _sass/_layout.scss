@@ -23,7 +23,7 @@
 .post-meta {
   text-align: left;
   font-size: $small-font-size;
-  color: $gray-light;
+  color: $gray-color;
   margin: 0px auto;
 
   li {
@@ -31,7 +31,7 @@
   }
 
   a {
-    color: $gray-light;
+    color: $gray-color;
     &:hover {
       color: $pop-color;
     }
@@ -52,14 +52,14 @@
 }
 
 .tag-cloud {
-  a {color: $gray-light;}
+  a {color: $gray-color;}
   li {
     border: 2px solid $pop-color;
     border-radius: 3px;
     background: $pop-color;
     display: inline-block;
-    margin-right: 1.1em;
-    padding-left: 1.1em;
+    margin-bottom: 5px;
+    padding-left: 20px;
   }
   li:before {
     content: '\f02b';
@@ -79,7 +79,7 @@
 }
 
 .tag-meta {
-  color: $gray-light;
+  color: $gray-color;
 }
 
 .tag-link {

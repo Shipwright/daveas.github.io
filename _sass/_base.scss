@@ -116,7 +116,7 @@ p {
  */
 blockquote {
     color: $gray-color;
-    border-left: 4px solid $gray-light;
+    border-left: 4px solid $gray-color;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -136,10 +136,9 @@ pre,
 code {
     font-family: $code-font;
     font-size: 15px;
-    color: $gray-dark;
-    border: 1px solid $gray-dark;
+    color: $text-color;
     border-radius: 3px;
-    background-color: $gray-light;
+    background-color: $gray-color;
 }
 
 code {

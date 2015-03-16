@@ -8,6 +8,12 @@
   text-align: center;
   margin-top: 15px;
   position: relative; // Positioning context for the mobile navigation icon
+  a {
+    color:$brand-color;
+    &:hover {
+      color: $pop-color;
+    }
+  }
 }
 
 .site-title {

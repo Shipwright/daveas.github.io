@@ -15,6 +15,13 @@
     list-style: none;
     margin: 0px 0px $spacing-unit 0px;
 
+    a {
+      color: $brand-color;
+      &:hover {
+        color: $pop-color;
+      }
+    }
+
     > li {
         margin-bottom: $spacing-unit;
     }
@@ -84,6 +91,24 @@
 
 .tag-link {
   font-family: $head-font;
+}
+
+/**
+ * Intro & Instafeed
+ */
+
+#intro {
+  text-align: justify;
+  padding-bottom: $spacing-unit;
+}
+
+#instafeed img {
+  width: $avatar-size;
+  height: $avatar-size;
+  margin: 0px auto;
+  -webkit-border-radius: $avatar-size / 2;
+  -moz-border-radius: $avatar-size / 2;
+  border-radius: $avatar-size / 2;
 }
 
 /**

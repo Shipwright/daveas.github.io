@@ -3,8 +3,9 @@
 */
 
 .site-footer {
+  background-color: $pop-color;
   text-align: center;
-  margin: 0px auto;
+  padding-top: $spacing-unit;
 }
 
 .footer-social {

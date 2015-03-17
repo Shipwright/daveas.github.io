@@ -2,7 +2,7 @@
 layout: post
 title: Awesome Title
 date: YYYY-MM-DD
-category: writing/work
+category: work
 tags:
 - tag
 - tag

@@ -5,7 +5,7 @@ date: 2014-11-04
 category: writing
 tags:
 - How I Work
-excerpt: "I have recently started to pick up some web design and web development skills because I want to create my own web applications. I was learning with One Month Rails and using a program called BetterSnapTool to organize my..."
+excerpt: "I have recently started to pick up some web design and web development skills because I want to create my own web applications. I was learning with One Month Rails and using a program called BetterSnapTool to organize my"
 ---
 
 I have recently started to pick up some web design and web development skills because I want to create my own web applications. I was learning with [One Month Rails](http://mbsy.co/9tG6V) and using a program called BetterSnapTool[^1] to organize my desktop in a way that fit how I wanted to learn.

@@ -6,7 +6,7 @@ category: writing
 tags:
 - Coding
 - Autodidact
-excerpt: "My analysis is simple. When you pay for Treehouse, what you’re really paying for is some more hand-holding. Both are designed with different tracks you can follow, like learning to build a website or..."
+excerpt: "My analysis is simple. When you pay for Treehouse, what you’re really paying for is some more hand-holding. Both are designed with different tracks you can follow, like learning to build a website or"
 ---
 
 My analysis is simple. When you pay for Treehouse, what you’re really paying for is some more hand-holding.

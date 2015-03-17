@@ -7,20 +7,13 @@ tags:
 - Startups
 - Cofounders
 - Funding
-excerpt: "- Ownership trumps Investment
-- Investment trumps Advice
-- Preparation is Paramount
-- Wait to Spend
-- Or just don’t
-- Put it in Writing
-- Welcome Serendipity
-- Trust your Gut
-"
+excerpt: "Ownership Trumps Investment, Cash trumps Advice, Preparation is Paramount, No Plan Survives First Contact, Wait to Spend, Or just don’t, Put it in Writing, Welcome Serendipity, Trust your Gut..."
 ---
 
-- Ownership trumps Investment
-- Investment trumps Advice
+- Ownership Trumps Investment
+- Cash Trumps Advice
 - Preparation is Paramount
+- No Plan Survives First Contact
 - Wait to Spend
 - Or just don’t
 - Put it in Writing

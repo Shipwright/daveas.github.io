@@ -8,7 +8,7 @@ tags:
 - Funding
 - Pitching
 - Willowlist
-excerpt: "1. Is it disruptive? 2. Is it scalable? 3. Is it defensible? These are the three questions Scott warned me I would get. Lo and behold, I was exclusively asked these questions, in one way or another..."
+excerpt: "1. Is it disruptive? 2. Is it scalable? 3. Is it defensible? These are the three questions Scott warned me I would get. Lo and behold, I was exclusively asked these questions, in one way or another"
 ---
 
 1. Is it disruptive?

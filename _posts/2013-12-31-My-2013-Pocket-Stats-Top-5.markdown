@@ -6,7 +6,7 @@ category: archive
 tags:
 - Marketing
 - Customers
-excerpt: "I was delighted last december when I received an email that said I had made it to the top 5% of Pocket Readers in 2013. They even prepared a page from Pocket for me where they said: You've read 327,071 words in Pocket this year..."
+excerpt: "I was delighted last december when I received an email that said I had made it to the top 5% of Pocket Readers in 2013. They even prepared a page from Pocket for me where they said: You've read 327,071 words in Pocket this year"
 ---
 
 ![](http://postachio-images.s3-website-us-east-1.amazonaws.com/c3a87e1ec30f46cace70bc282b4ce046.png)

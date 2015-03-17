@@ -5,7 +5,7 @@ date: 2014-02-25
 category: writing
 tags:
 - Stories
-excerpt: "February 18th, I get a call from the jeweler in Denver, Colorado. In a thick Colorado accept that sounds almost Canadian he calmly informs me: “Hey there Dave, this is Bill. Just wanted to let ya know that Kimberly’s ring is done early..."
+excerpt: "February 18th, I get a call from the jeweler in Denver, Colorado. In a thick Colorado accept that sounds almost Canadian he calmly informs me: “Hey there Dave, this is Bill. Just wanted to let ya know that Kimberly’s ring is done early"
 ---
 
 February 18th, I get a call from the jeweler in Denver, Colorado.

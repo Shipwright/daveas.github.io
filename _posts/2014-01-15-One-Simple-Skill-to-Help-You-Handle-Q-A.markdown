@@ -7,7 +7,7 @@ tags:
 - Pitching
 - Startups
 - Willowlist
-excerpt: "After participating in the first 'Open Pitch Night' hosted by EoK and ACG I was lucky enough to get to pitch to ACG at the end of a member meeting. After the event had started I found out that the audience was not limited to..."
+excerpt: "After participating in the first 'Open Pitch Night' hosted by EoK and ACG I was lucky enough to get to pitch to ACG at the end of a member meeting. After the event had started I found out that the audience was not limited to"
 ---
 
 After participating in the first “Open Pitch Night" hosted by [EoK](http://www.eokhq.com) and [ACG](http://theangelcapitalgroup.com) I was lucky enough to get to pitch to ACG at the end of a member meeting.

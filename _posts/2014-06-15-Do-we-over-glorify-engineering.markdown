@@ -5,7 +5,7 @@ date: 2014-06-15
 category: writing
 tags:
 - Engineering
-excerpt: "For most engineers, 'engineering' is not quotidian. It usually matters a lot more if you can 'talk to people' rather than 'engineer things', as it goes with so many other jobs. I believe there are many jobs out there that..."
+excerpt: "For most engineers, 'engineering' is not quotidian. It usually matters a lot more if you can 'talk to people' rather than 'engineer things', as it goes with so many other jobs. I believe there are many jobs out there that"
 ---
 
 For most engineers, “engineering" is not quotidian. It usually matters a lot more if you can "talk to people" rather than “engineer things", as it goes with so many other jobs. I believe there are many jobs out there that require engineering degrees that simply don’t have to. There should be a faster route to access many of these jobs which are in desperate need of more candidates. Why isn’t there a 2-3 year track that attempts to make one literate in all kinds of engineering with more practical knowledge than fundamental knowledge? A person with that sort of background would make an excellent sales person, for example.

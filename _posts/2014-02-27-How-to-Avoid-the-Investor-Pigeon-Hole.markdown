@@ -8,7 +8,7 @@ tags:
 - Pitching
 - Funding
 - Willowlist
-excerpt: "Investors hear, read, and otherwise review hundreds if not thousands of pitches per year. For entrepreneurs, this leads to one of the most inconvenient truisms about the investor mindset. The first thing investors do is..."
+excerpt: "Investors hear, read, and otherwise review hundreds if not thousands of pitches per year. For entrepreneurs, this leads to one of the most inconvenient truisms about the investor mindset. The first thing investors do is"
 ---
 
 Investors hear, read, and otherwise review hundreds if not thousands of pitches per year. For entrepreneurs, this leads to one of the most inconvenient truisms about the investor mindset. The _first_ thing investors typically do is **get their bearings** …

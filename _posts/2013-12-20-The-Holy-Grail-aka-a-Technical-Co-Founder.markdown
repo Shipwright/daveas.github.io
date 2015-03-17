@@ -7,7 +7,7 @@ tags:
 - Startups
 - Cofounders
 - Willowlist
-excerpt: "I mentioned I got to meet with my first VC right? Here’s a little excerpt from our first conversation: Me - “My name is Dave, I have an idea for a web enabled company but I need money to start it..."
+excerpt: "I mentioned I got to meet with my first VC right? Here’s a little excerpt from our first conversation: Me - “My name is Dave, I have an idea for a web enabled company but I need money to start it"
 ---
 
 ![montypythonandtheholygrail.jpg](http://postachio-images.s3-website-us-east-1.amazonaws.com/5ea097749a59260deab4d641abb3d3b2.jpg)

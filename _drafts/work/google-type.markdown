@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Type Project
-date: YYYY-MM-DD
+date: "2015-03-08"
 category: work
 tags:
 - tag

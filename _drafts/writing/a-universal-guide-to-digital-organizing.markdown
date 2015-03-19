@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Universal Guide to Digital Organizing
-date: YYYY-MM-DD
+date: "2015-03-08"
 category: writing
 tags:
 - How I Work

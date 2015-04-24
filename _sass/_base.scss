@@ -12,6 +12,7 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+
 body {
     font-family: $body-font;
     font-size: $base-font-size;
@@ -20,6 +21,7 @@ body {
     background-color: $back-color;
     -webkit-text-size-adjust: 100%;
 }
+
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -30,7 +32,6 @@ ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
-
 
 
 /**
@@ -63,20 +64,30 @@ figcaption {
 
 
 /**
- * Lists
- */
+* Lists
+*/
+
 ul, ol {
-    margin-left: $spacing-unit;
+  margin-left: $spacing-unit;
 }
 
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
 }
 
-
+.inline-list {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+      display: inline;
+    }
+  }
+}
 
 /**
  * Headings
@@ -206,32 +217,17 @@ pre {
     }
 }
 
-
-
 /**
- * Icons
+ * Alignment
  */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $gray-color;
-        }
-    }
-}
+ .center {
+   margin: 0px auto;
+   text-align: center;
+ }
 
 /**
  * Toggle Divs
  */
-
- // .toggle {
- //
- // }
 
  .hidden>div {
      display:none;

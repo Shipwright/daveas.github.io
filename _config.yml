@@ -4,8 +4,8 @@ author: Dave
 email: daveseeman12@gmail.com
 description: Dave Seeman's blog
 url: "http://daveas.me"
-social_username:   daveaseeman
-github_username:   daveas
+long_name:   daveaseeman
+short_name:   daveas
 
 # Build settings
 markdown: kramdown

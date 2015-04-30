@@ -5,7 +5,7 @@ date: 2014-07-01
 category: writing
 tags:
 - Coding
-- Autodidact
+- Learning
 excerpt: "Thanks to Codeacademy and the 'inspect element' feature in Safari (Developer tools turned on) I was able to figure out what code I had to add to the source for this theme to center all images and post titles which were both previously"
 ---
 
@@ -15,15 +15,17 @@ Thanks to Codeacademy and the “inspect element" feature in Safari (Developer t
 
 You’ll see I also made all h3 headings centered which will allow me to page-center subheadings by just adding "###" before the text within my notes. I had wanted this ability before but had not the means to add it!
 
-### And now my blog looks better.
+And now my blog looks better. So thank you [Codeacademy](http://www.codecademy.com), and thank you [Postach.io](http://postach.io)
 
-Thank you [Codeacademy](http://www.codecademy.com), and thank you [Postach.io](http://postach.io)
+------
 
 ### Update: Help from Postach.io’s Brandon Brown:
 
 Brandon was kind enough to message me with another suggestion for how to center images. He also noted that this code bit belongs in the head of the html file. This is definitely a more proper way to write this, so thank you Brandon for your help!
 
 ![screenshot.png](http://postachio-images.s3-website-us-east-1.amazonaws.com/92111499dd58a66c6fd3be48dde4221f.png)
+
+------
 
 ### Update: Including Pages
 

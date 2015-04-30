@@ -1,4 +1,4 @@
-# Site settings
+# Site Settings
 title: David A Seeman
 author: Dave Seeman
 email: daveseeman12@gmail.com
@@ -8,7 +8,7 @@ github: "http://daveas.github.io"
 long_name:   daveaseeman
 short_name:   daveas
 
-# Build settings
+# Build Settings
 markdown: kramdown
 permalink: /:categories/:title
 exclude:
@@ -16,3 +16,75 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+
+# Prose Settings
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://daveas.me'
+  media: 'assets/images'
+  ignore:
+    - .gitignore
+    - feed.xml
+    - Gemfile
+    - Gemfile.lock
+    - CNAME
+    - index.html
+    - 404.md
+    - about.html
+    - blog.html
+    - projects.html
+    - tags.html
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /_sass
+    - /css
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Willowlist"
+              value: "Willowlist"
+            - name: "Startups"
+              value: "Startups"
+            - name: "Funding"
+              value: "Funding"
+            - name: "Pitching"
+              value: "Pitching"
+            - name: "Bootstrapping"
+              value: "Bootstrapping"
+            - name: "Marketing"
+              value: "Marketing"
+            - name: "Customers"
+              value: "Customers"
+            - name: "CoFounders"
+              value: "CoFounders"
+            - name: "Stories"
+              value: "Stories"
+            - name: "How I Work"
+              value: "How I Work"
+            - name: "Engineering"
+              value: "Engineering"
+            - name: "Coding"
+              value: "Coding"
+            - name: "Learning"
+              value: "Learning"
+            - name: "Product"
+              value: "Product"
+            - name: "CAD"
+              value: "CAD"
+            - name: "Design"
+              value: "Design"
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"

@@ -1,0 +1,136 @@
+
+/**
+ * Archive
+ */
+
+ .archive {
+  margin: 0px auto 0px auto;
+  padding-bottom: $spacing-unit;
+  text-align: center;
+}
+
+/**
+ * Tags
+ */
+
+.tag-cloud {
+  a {color: $gray-color;}
+  li {
+    border: 2px solid $pop-color;
+    border-radius: 3px;
+    background: $pop-color;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding-left: 20px;
+  }
+  li:before {
+    content: '\f02b';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1em;
+  }
+}
+
+.tag-list {
+    text-align: left;
+    list-style: none;
+    margin: 0px 0px $spacing-unit 0px;
+    li {
+      display: block;
+    }
+}
+
+.tag-meta {
+  color: $gray-color;
+}
+
+.tag-link {
+  font-family: $head-font;
+}
+
+/**
+ * Intro
+ */
+
+#intro {
+  padding-bottom: $spacing-unit;
+}
+
+#instafeed img {
+  width: $avatar-size;
+  height: $avatar-size;
+  margin: 10px auto;
+  -webkit-border-radius: $avatar-size / 2;
+  -moz-border-radius: $avatar-size / 2;
+  border-radius: $avatar-size / 2;
+}
+
+/**
+ * Alignment
+ */
+
+ .center {
+   margin: 0px auto;
+   text-align: center;
+ }
+
+ .inline-list {
+   ul {
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     li {
+       display: inline;
+     }
+   }
+ }
+
+ hr {
+   width: 25%;
+   margin: 0 auto;
+   margin-bottom: $spacing-unit*1.2;
+   margin-top: $spacing-unit;
+ }
+
+/**
+ * Toggle Divs
+ */
+
+ .hidden>div {
+     display:none;
+ }
+
+ .visible>div {
+    display:block;
+}
+
+/**
+ * Link Mixins
+ */
+
+@mixin white-links {
+  a {
+    color: $back-color;
+    &:hover {
+      color: $pop-color;
+    }
+  }
+}
+
+@mixin gray-links {
+  a {
+    color: $gray-color;
+    &:hover {
+      color: $pop-color;
+    }
+  }
+}
+
+@mixin color-links {
+  a {
+    color: $brand-color;
+    &:hover {
+      color: $pop-color;
+    }
+  }
+}

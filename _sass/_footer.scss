@@ -3,25 +3,14 @@
 */
 
 .site-footer {
-  background-color: $pop-color;
+  font-size: $small-font-size;
   text-align: center;
   padding-top: $spacing-unit;
-}
-
-.footer-social {
-  a {
-    color: $brand-color;
-    &:hover {
-      color: $pop-color;
-      text-decoration: underline;
-    }
-  }
+  background-color: $pop-color;
+  @include color-links;
 }
 
 .footer-meta {
-  text-align: center;
-  font-size: $small-font-size;
-  color: $gray-color;
   padding-top: $spacing-unit/2;
   padding-bottom: $spacing-unit;
 }

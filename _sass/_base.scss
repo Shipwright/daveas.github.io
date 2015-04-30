@@ -4,7 +4,7 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    color: $text-color;
+    color: $brand-color;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,12 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 
+html {
+  height: 100%;
+}
+
 body {
+    height: 100%;
     font-family: $body-font;
     font-size: $base-font-size;
     line-height: $base-line-height;
@@ -78,17 +83,6 @@ li {
   }
 }
 
-.inline-list {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    li {
-      display: inline;
-    }
-  }
-}
-
 /**
  * Headings
  */
@@ -102,25 +96,13 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $link-color;
+    color: $brand-color;
     text-decoration: none;
 
     &:hover {
       color: $pop-color;
     }
 }
-
-p {
-  a {
-      color: $link-color;
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
-  }
-}
-
 
 /**
  * Blockquotes
@@ -147,7 +129,7 @@ pre,
 code {
     font-family: $code-font;
     font-size: 15px;
-    color: $text-color;
+    color: $brand-color;
     border-radius: 3px;
     background-color: $gray-color;
 }
@@ -204,7 +186,6 @@ pre {
     }
 }
 
-
 /**
  * Clearfix
  */
@@ -215,24 +196,4 @@ pre {
         display: table;
         clear: both;
     }
-}
-
-/**
- * Alignment
- */
- .center {
-   margin: 0px auto;
-   text-align: center;
- }
-
-/**
- * Toggle Divs
- */
-
- .hidden>div {
-     display:none;
- }
-
- .visible>div {
-    display:block;
 }

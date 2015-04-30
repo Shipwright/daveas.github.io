@@ -3,9 +3,10 @@ layout: post
 title: "Upcoming Posts"
 date: "2015-03-24"
 category: work
-tags: 
+tags:
   - Engineering
-  - Product Design
+  - Product
+  - Design
 excerpt: "I have many projects, past and present, which I plan to write about. I will share both my process and the final works weather they be CAD files, rendered images, or physical products. Check back later to see them."
 published: true
 ---

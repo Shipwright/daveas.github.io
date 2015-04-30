@@ -3,16 +3,11 @@
 */
 
 .site-header {
+  height: 33%;
   background-color: $brand-color;
   font-family: $head-font;
   padding: 15px 0px $spacing-unit 0px;
-
-  a {
-    color: $back-color;
-    &:hover {
-      color: $pop-color;
-    }
-  }
+  @include white-links;
 }
 
 .site-title {

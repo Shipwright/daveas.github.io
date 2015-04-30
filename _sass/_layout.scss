@@ -14,13 +14,7 @@
     text-align: left;
     list-style: none;
     margin: 0px 0px $spacing-unit 0px;
-
-    a {
-      color: $brand-color;
-      &:hover {
-        color: $pop-color;
-      }
-    }
+    @include color-links;
 
     > li {
         margin-bottom: $spacing-unit;
@@ -32,79 +26,15 @@
   font-size: $small-font-size;
   color: $gray-color;
   margin: 0px auto;
-
-  a {
-    color: $gray-color;
-    &:hover {
-      color: $pop-color;
-    }
-  }
+  @include gray-links;
 }
 
-.post-link {
-    color: $text-color;
-    display: block;
-    font-size: 24px;
-    text-align: left;
-}
-
-.archive {
-  margin: 0px auto 0px auto;
-  padding-bottom: $spacing-unit;
-  text-align: center;
-}
-
-.tag-cloud {
-  a {color: $gray-color;}
-  li {
-    border: 2px solid $pop-color;
-    border-radius: 3px;
-    background: $pop-color;
-    display: inline-block;
-    margin-bottom: 5px;
-    padding-left: 20px;
-  }
-  li:before {
-    content: '\f02b';
-    font-family: 'FontAwesome';
-    float: left;
-    margin-left: -1em;
-  }
-}
-
-.tag-list {
-    text-align: left;
-    list-style: none;
-    margin: 0px 0px $spacing-unit 0px;
-    li {
-      display: block;
-    }
-}
-
-.tag-meta {
-  color: $gray-color;
-}
-
-.tag-link {
-  font-family: $head-font;
-}
-
-/**
- * Intro, About, Instafeed
- */
-
-#intro {
-  padding-bottom: $spacing-unit;
-}
-
-#instafeed img {
-  width: $avatar-size;
-  height: $avatar-size;
-  margin: 10px auto;
-  -webkit-border-radius: $avatar-size / 2;
-  -moz-border-radius: $avatar-size / 2;
-  border-radius: $avatar-size / 2;
-}
+// .post-link {
+//     @include color-links;
+//     display: block;
+//     font-size: 24px;
+//     text-align: left;
+// }
 
 /**
  * Posts
@@ -125,20 +55,20 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-
-    a {
-      color: $link-color;
-
-      &:hover {
-        color: $pop-color;
-        text-decoration: underline;
-
-      }
-
-      &:visited {
-        color: $text-color;
-      }
-    }
+    @include color-links;
+    // a {
+    //   color: $link-color;
+    //
+    //   &:hover {
+    //     color: $pop-color;
+    //     text-decoration: underline;
+    //
+    //   }
+    //
+    //   &:visited {
+    //     color: $text-color;
+    //   }
+    // }
 
     h2 {
         font-size: 32px;

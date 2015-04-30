@@ -19,9 +19,9 @@ exclude:
 
 # Prose Settings
 prose:
-  rooturl: '_posts'
+  rooturl: '/'
   siteurl: 'http://daveas.me'
-  media: 'assets/images'
+  media: '/assets/images'
   ignore:
     - .gitignore
     - feed.xml
@@ -79,6 +79,8 @@ prose:
               value: "Learning"
             - name: "Product"
               value: "Product"
+            - name: "Productivity"
+              value: "Productivity"
             - name: "CAD"
               value: "CAD"
             - name: "Design"

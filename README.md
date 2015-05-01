@@ -1,7 +1,7 @@
-Sea
-===
+SHIPWRIGHT :sailboat:
+==========
 
-A simple Jekyll Theme inspired by the Sea.
+A simple Jekyll Theme inspired by sailboats :sailboat:
 
 Special thanks to these writers and creators:
 - [@lanyonm](http://github.com/lanyonm)

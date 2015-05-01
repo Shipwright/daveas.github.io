@@ -4,7 +4,7 @@
  */
 
  .archive {
-  margin: 0px auto 0px auto;
+  margin: 0 auto;
   padding-bottom: $spacing-unit;
   text-align: center;
 }
@@ -14,7 +14,7 @@
  */
 
 .tag-cloud {
-  a {color: $gray-color;}
+  @include gray-links
   li {
     border: 2px solid $pop-color;
     border-radius: 3px;

@@ -1,7 +1,7 @@
-SHIPWRIGHT :sailboat:
+SHIPWRIGHT
 ==========
 
-A simple Jekyll Theme inspired by sailboats :sailboat:
+A simple Jekyll Theme inspired by :sailboat:
 
 Special thanks to these writers and creators:
 - [@lanyonm](http://github.com/lanyonm)

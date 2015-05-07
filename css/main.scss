@@ -47,11 +47,9 @@ $on-laptop:        720px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "custom",
-        "layout",
-        "header",
-        "footer",
-        "syntax"
-;
+@import "base";
+@import "custom";
+@import "layout";
+@import "header";
+@import "footer";
+@import "syntax";

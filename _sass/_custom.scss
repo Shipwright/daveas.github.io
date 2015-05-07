@@ -126,6 +126,15 @@
   }
 }
 
+@mixin blue-links {
+  a {
+    color: $link-color;
+    &:hover {
+      color: $pop-color;
+    }
+  }
+}
+
 @mixin color-links {
   a {
     color: $brand-color;

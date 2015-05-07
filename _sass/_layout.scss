@@ -14,7 +14,7 @@
     text-align: left;
     list-style: none;
     margin: 0px 0px $spacing-unit 0px;
-    @include color-links;
+    @include blue-links;
 
     > li {
         margin-bottom: $spacing-unit;
@@ -55,20 +55,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-    @include color-links;
-    // a {
-    //   color: $link-color;
-    //
-    //   &:hover {
-    //     color: $pop-color;
-    //     text-decoration: underline;
-    //
-    //   }
-    //
-    //   &:visited {
-    //     color: $text-color;
-    //   }
-    // }
+    @include blue-links;
 
     h2 {
         font-size: 32px;

@@ -13,11 +13,9 @@ $base-font-size:    20px;
 $base-font-weight:  400;
 $base-line-height:  28px;
 
-
-$small-font-size:   $base-font-size * 0.875;
+$small-font-size:   17.5px;
 $small-font-weight: 300;
-$base-line-height:  28px * 0.875;
-
+$base-line-height:  24.5px;
 
 $spacing-unit:    30px;
 $avatar-size:     350px;
@@ -34,8 +32,6 @@ $content-width:    840px;
 
 $on-palm:          600px;
 $on-laptop:        720px;
-
-
 
 // Using media queries with like this:
 // @include media-query($on-palm) {

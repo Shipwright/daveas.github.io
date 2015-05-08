@@ -1,3 +1,42 @@
+/**
+ * Link Mixins
+ */
+
+@mixin white-links {
+  a {
+    color: $back-color;
+    &:hover {
+      color: $pop-color;
+    }
+  }
+}
+
+@mixin gray-links {
+  a {
+    color: $gray-color;
+    &:hover {
+      color: $pop-color;
+    }
+  }
+}
+
+@mixin blue-links {
+  a {
+    color: $link-color;
+    &:hover {
+      color: $text-color;
+    }
+  }
+}
+
+@mixin color-links {
+  a {
+    color: $brand-color;
+    &:hover {
+      color: $link-color;
+    }
+  }
+}
 
 /**
  * Archive
@@ -8,13 +47,26 @@
   padding-bottom: $spacing-unit;
   text-align: center;
 }
+.collapse{
+  display:block;
+}
+.collapse + input{
+  display:none;
+}
+.collapse + input + *{
+  display:none;
+}
+.collapse+ input:checked + *{
+  display:block;
+}
 
 /**
  * Tags
  */
 
 .tag-cloud {
-  @include gray-links
+  @include gray-links;
+
   li {
     border: 2px solid $pop-color;
     border-radius: 3px;
@@ -70,7 +122,7 @@
  */
 
  .center {
-   margin: 0px auto;
+   margin: auto auto;
    text-align: center;
  }
 
@@ -91,55 +143,3 @@
    margin-bottom: $spacing-unit*1.2;
    margin-top: $spacing-unit;
  }
-
-/**
- * Toggle Divs
- */
-
- .hidden>div {
-     display:none;
- }
-
- .visible>div {
-    display:block;
-}
-
-/**
- * Link Mixins
- */
-
-@mixin white-links {
-  a {
-    color: $back-color;
-    &:hover {
-      color: $pop-color;
-    }
-  }
-}
-
-@mixin gray-links {
-  a {
-    color: $gray-color;
-    &:hover {
-      color: $pop-color;
-    }
-  }
-}
-
-@mixin blue-links {
-  a {
-    color: $link-color;
-    &:hover {
-      color: $pop-color;
-    }
-  }
-}
-
-@mixin color-links {
-  a {
-    color: $brand-color;
-    &:hover {
-      color: $pop-color;
-    }
-  }
-}

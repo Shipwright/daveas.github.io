@@ -9,7 +9,7 @@ permalink: /blog/
   <ul class="post-list">
     {% for post in site.categories.writing %}
     <li>
-      <h3><a href="{{ post.url | prepend: site.baseurl }}" target="_blank">{{ post.title }}</a></h3>
+      <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br>
       {{ post.excerpt }}
     </li>

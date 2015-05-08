@@ -29,13 +29,6 @@
   @include gray-links;
 }
 
-// .post-link {
-//     @include color-links;
-//     display: block;
-//     font-size: 24px;
-//     text-align: left;
-// }
-
 /**
  * Posts
  */
@@ -44,40 +37,15 @@
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+    // font-size: 38px;
+    // line-height: $line-height;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 30px;
     }
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
     @include blue-links;
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
 }

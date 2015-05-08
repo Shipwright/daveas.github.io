@@ -10,13 +10,11 @@ $head-font:   'Bitter', sans-serif;
 $body-font:   'Merriweather Sans', serif;
 $code-font:   'Oxygen Mono', serif;
 
-$base-font-size:    20px;
+$base-font-size:    22px;
 $base-font-weight:  400;
-$base-line-height:  1.4;
-
 $small-font-size:   17.5px;
 $small-font-weight: 300;
-$small-line-height: 1.4;
+$line-height:       1.4;
 
 $spacing-unit:    30px;
 $avatar-size:     350px;
@@ -28,24 +26,17 @@ $back-color:      #ffffff;
 $text-color:      #2a2a2a;
 $link-color:      #3498db;
 
-// Width of the content area
-$content-width:    840px;
-
-$on-palm:          600px;
-$on-laptop:        720px;
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
+
+// Width of the content area
+$content-width:    840px;
+
+$on-palm:          600px;
+$on-laptop:        720px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base";

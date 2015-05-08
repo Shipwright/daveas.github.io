@@ -9,7 +9,7 @@ layout: default
     <ul class="post-list">
       {% for post in site.categories.writing limit:1 %}
         <li>
-          <h3>Latest Writing: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+          <h2 class="post-title">Latest Writing: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
           "{{ post.excerpt }}..."
         </li>
@@ -19,7 +19,7 @@ layout: default
     <ul class="post-list">
       {% for post in site.categories.work limit:1 %}
         <li>
-          <h3>Latest Work: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+          <h2 class="post-title">Latest Work: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
           "{{ post.excerpt }}..."
           <a href="{{ post.url | prepend: site.baseurl }}" target="_blank"></a>

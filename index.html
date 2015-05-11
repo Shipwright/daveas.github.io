@@ -11,7 +11,7 @@ layout: default
         <li>
           <h2 class="post-title">Latest Writing: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
-          "{{ post.excerpt }}..."
+          {{ post.excerpt }}
         </li>
       {% endfor %}
     </ul>
@@ -21,7 +21,7 @@ layout: default
         <li>
           <h2 class="post-title">Latest Work: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
-          "{{ post.excerpt }}..."
+          {{ post.excerpt }}
           <a href="{{ post.url | prepend: site.baseurl }}" target="_blank"></a>
         </li>
       {% endfor %}

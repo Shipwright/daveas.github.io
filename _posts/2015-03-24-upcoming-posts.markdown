@@ -7,19 +7,22 @@ tags:
   - Engineering
   - Product
   - Design
-excerpt: "I have many projects, past and present, which I plan to write about. I will share both my process and the final works weather they be CAD files, rendered images, or physical products. Check back later to see them."
+excerpt: "There are a few projects I want to finish, this blog being one of them. Once I get two or three completed I plan to make a post for each one sharing both my process and the final works whether they be CAD files or source code. Check back later to see them!"
 published: true
 ---
 
-I have many projects, past and present, which I plan to write about. I will share both my process and the final works weather they be CAD files, rendered images, or physical products. Check back later to see them.
+There are a few projects I want to finish, this blog being one of them. Once I get two or three completed I plan to make a post for each one sharing both my process and the final works whether they be CAD files or source code. Check back later to see them!
 
 Upcoming Posts:
 
-- Jekyll Blog & Template
-- Musician’s Jekyll Template
-- Planetary Gear System
-- Coffee Mug
-- SCR Lift Cage
-- Tobacco Pipe
-- Chess Pieces & Board
-- Sinatra & Shopify based Web Store
+Code:
+- My Jekyll Blog (this stie)
+- Musician’s Jekyll Blog (for my dad)
+- Writer's Jekyll Blog (for a friend)
+- Favorite Jekyll hacks
+
+CAD:
+- Printable Gear System
+- Printable Chess Pieces & Board
+- Printable & Brandable Coffee Mug
+

@@ -96,9 +96,9 @@
 .tag-meta {
   color: $gray-color;
   width: 150px;
-  @include media-query($on-palm) {
-        width: 100%;
-    }
+  // @include media-query($on-palm) {
+  //       width: 100%;
+  //   }
 }
 
 .tag-link {

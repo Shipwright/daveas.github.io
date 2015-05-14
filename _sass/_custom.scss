@@ -96,13 +96,11 @@
 .tag-meta {
   color: $gray-color;
   display: inline-block;
-  width: 120px;
-  // @include media-query($on-palm) {
-  //       width: 100%;
-  //   }
+  width: 150px;
 }
 
 .tag-link {
+  margin-left: 10px;
   font-family: $head-font;
 }
 

@@ -94,7 +94,10 @@
 
 .tag-meta {
   color: $gray-color;
-  width: 100px;
+  width: 150px;
+  @include media-query($on-palm) {
+        width: 100%;
+    }
 }
 
 .tag-link {

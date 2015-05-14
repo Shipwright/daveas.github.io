@@ -95,6 +95,7 @@
 
 .tag-meta {
   color: $gray-color;
+  display: inline-block;
   width: 150px;
   // @include media-query($on-palm) {
   //       width: 100%;

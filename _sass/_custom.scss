@@ -25,6 +25,10 @@
     color: $link-color;
     &:hover {
       color: $text-color;
+    &:visited {
+      color: $gray-color;
+      style: italic;
+    }
     }
   }
 }

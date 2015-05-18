@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Test
+title: About Me
+permalink: /about/
 ---
 
-# Hi, I'm {{ site.author }}
+## Hi, I'm {{ site.author }}
 
 I am a designer and engineer living in Knoxville, TN. I am married to the beautiful girl in the picture below; her name is Kimberly. She is my best friend. We love to play a good game or to get outside.
 

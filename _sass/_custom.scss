@@ -127,6 +127,8 @@
 
  .center {
    margin: auto auto;
+   float: none;
+   clear: both;
    text-align: center;
  }
 
@@ -152,14 +154,7 @@
  /**
  * Forms
  */
- 
- .container {
-	margin: 0 auto;
-	width: 25em;
-	float:none;
-	text-align: left;
-	clear:both;
-}
+
 form {
 	border: 1px solid #7f8c8d;
 	padding: 3em;

@@ -13,7 +13,8 @@ layout: default
           <h2 class="post-title">Latest Writing: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
           <p class="post-meta"><i class="fa fa-clock-o"></i>{{ post.content | number_of_words | divided_by: 33 | round: 2 }} min</p>
-          <p class="post-meta"><i class="fa fa-clock-o"></i>{% capture post_length %}{{ post.content | number_of_words }}{% endcapture %}{{ post_length | divided_by: 33 | round: 2 }} min</p>
+          {% capture post_length %}{{ post.content | number_of_words | divided_by: 300 | ceil }}{% endcapture %}
+<p class="post-meta"><i class="fa fa-clock-o"></i>{{ post_length }} min</p>
           {{ post.excerpt }}
         </li>
       {% endfor %}

@@ -3,8 +3,8 @@ site time: {{ site.time | date: "%F" }}<br>
 {% for post in site.posts limit: 1 %}
 post date: {{ post.date | date: "%F" }}<br>
 {% endfor %}
-date diff1: {{ site.time | minus: 31556926 | date: "%F" }}<br>
-date diff2: {{ 'now' | minus: 31556926 | date: "%F" }}<br>
+date diff1: {{ site.time | date: "%s" | minus: 31556926 | date: "%F" }}<br>
+date diff2: {{ 'now' | date: "%s" | minus: 31556926 | date: "%F" }}<br>
 </p>
 
 {% capture todays_date %}{{ site.time | date: "%F" }}{% endcapture %}

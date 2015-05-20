@@ -1,0 +1,18 @@
+<label class="collapse" for="_1">
+  <h3 class="archive">Archive <i class="fa fa-archive"></i></h3>
+</label>
+<input id="_1" type="checkbox">
+<div>
+  <ul class="post-list">
+    {% for post in site.categories.archive %}
+    <li>
+      <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-archive"></i> {{ post.title }}</a></h2>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <div class="post-excerpt">
+        {{ post.excerpt }}
+        <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

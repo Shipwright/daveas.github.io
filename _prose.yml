@@ -11,7 +11,7 @@ prose:
     - CNAME
     - index.html
     - 404.md
-    - about.html
+    - about.md
     - blog.html
     - projects.html
     - tags.html

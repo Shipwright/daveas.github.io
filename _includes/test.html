@@ -5,12 +5,7 @@ post date: {{ post.date | date: "%F" }}<br>
 {% endfor %}
 </p>
 
-{% capture show %}
-{% for post in site.posts %}
-{{ post.date }}
-{{ post.date.to_date }}
-{% endfor %}
-{% endcapture %}
+<!-- for posts, diff(site.time,post.date), if diff>1year, show, endif, endfor -->
 
 <label class="collapse" for="_1">
   <h3 class="archive">Archive <i class="fa fa-archive"></i></h3>

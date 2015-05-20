@@ -1,11 +1,4 @@
 <p>
-site time: {{ site.time | date: "%F" }}<br>
-{% for post in site.posts limit: 1 %}
-post date: {{ post.date | date: "%F" }}<br>
-{% endfor %}
-date diff1: {{ site.time | date: "%s" | minus: 31556926 | date: "%F" }}<br>
-date diff2: {{ 'now' | date: "%s" | minus: 31556926 | date: "%F" }}<br>
-
 {% capture cutoff_date %}{{ site.time | date: "%s" | minus: 31556926 }}{% endcapture %}
 {% for post in site.posts %} 
 {% capture post_date %}{{ post.date | date: "%s" }}{% endcapture %}
@@ -15,13 +8,7 @@ date diff2: {{ 'now' | date: "%s" | minus: 31556926 | date: "%F" }}<br>
 {{ post.date | date: "%b %-d, %Y" }} - hidden<br>
 {% endif %}
 {% endfor %}
-
 </p>
-
-
-{% assign date_diff = todays_date - post_date %}
-{{ date_diff }}
-
 
 <!-- for posts, diff(site.time,post.date), if diff>1year, show, endif, endfor -->
 
@@ -31,7 +18,11 @@ date diff2: {{ 'now' | date: "%s" | minus: 31556926 | date: "%F" }}<br>
 <input id="_1" type="checkbox">
 <div>
   <ul class="post-list">
+    {% capture cutoff_date %}{{ site.time | date: "%s" | minus: 31556926 }}{% endcapture %}
     {% for post in site.posts %}
+    {% capture post_date %}{{ post.date | date: "%s" }}{% endcapture %}
+    {% if post_date >= cutoff_date %}
+    {{ post.date | date: "%b %-d, %Y" }} - shown<br>
     <li>
       <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-archive"></i> {{ post.title }}</a></h2>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -40,19 +31,9 @@ date diff2: {{ 'now' | date: "%s" | minus: 31556926 | date: "%F" }}<br>
         <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
       </div>
     </li>
-    {% endfor %}
+    {% else %}
+  {{ post.date | date: "%b %-d, %Y" }} - archived<br>
+  {% endif %}
+  {% endfor %}
   </ul>
 </div>
-
-<!--{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}-->
-<!--{% assign tag_words = site_tags | split:',' | sort %}-->
-
-<!--<div class="tag-cloud">-->
-<!--  <h2>Tags</h2>-->
-<!--  <ul>-->
-<!--    {% for item in (0..site.tags.size) %}{% unless forloop.last %}-->
-<!--    {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}-->
-<!--    <li><a href="#{{ this_word | cgi_escape }}">{{ this_word }} <sup>{{ site.tags[this_word].size }}</sup></a></li>-->
-<!--    {% endunless %}{% endfor %}-->
-<!--  </ul>-->
-<!--</div>-->

@@ -1,10 +1,12 @@
-{{ site.time }}<br>
+{{ site.time }} /<br>
 {{ site.time.to_date }}<br>
 <br><br>
-{% for post in site.posts %}
-{{ post.date }}<br>
+{% for post in site.posts limit: 3 %}
+{{ post.date }} /<br>
 {{ post.date.to_date }}<br>
 {% endfor %}
+{{ site.time.to_date - post.date }} /<br>
+{{ site.time.to_date - post.date }}<br>
 
 {% capture show %}
 {% for post in site.posts %}

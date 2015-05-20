@@ -1,12 +1,14 @@
-<p "style: color: blue;"></p>{{ site.time }}</p><br>
-<p "style: color: green;">{{ site.time.to_date }}</p><br>
+<p>
+site time: {{ site.time }}<br>
+to date: {{ site.time.to_date }}</p><br>
 <br><br>
 {% for post in site.posts limit: 1 %}
-<p "style: color: red;">{{ post.date }}</p><br>
-<p "style: color: orange;">{{ post.date.to_date }}</p><br>
+post date: {{ post.date }}<br>
+to date: {{ post.date.to_date }}<br>
 {% endfor %}
-<p "style: color: pink;">{{ site.time.to_date - post.date }}</p><br>
-<p "style: color: yellow;">{{ site.time.to_date - post.date }}</p><br>
+difference: {{ site.time.to_date - post.date }}<br>
+to date: {{ site.time.to_date - post.date }}<br>
+</p>
 
 {% capture show %}
 {% for post in site.posts %}

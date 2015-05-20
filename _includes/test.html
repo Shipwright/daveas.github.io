@@ -1,13 +1,8 @@
 <p>
 site time: {{ site.time }}<br>
-to date: {{ site.time.to_date }}</p><br>
-<br><br>
 {% for post in site.posts limit: 1 %}
 post date: {{ post.date }}<br>
-to date: {{ post.date.to_date }}<br>
 {% endfor %}
-difference: {{ site.time.to_date - post.date }}<br>
-to date: {{ site.time.to_date - post.date }}<br>
 </p>
 
 {% capture show %}

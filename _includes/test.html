@@ -1,12 +1,12 @@
-{{ site.time }} /<br>
-{{ site.time.to_date }}<br>
+<p "style: color: blue;"></p>{{ site.time }}</p><br>
+<p "style: color: green;">{{ site.time.to_date }}</p><br>
 <br><br>
-{% for post in site.posts limit: 3 %}
-{{ post.date }} /<br>
-{{ post.date.to_date }}<br>
+{% for post in site.posts limit: 1 %}
+<p "style: color: red;">{{ post.date }}</p><br>
+<p "style: color: orange;">{{ post.date.to_date }}</p><br>
 {% endfor %}
-{{ site.time.to_date - post.date }} /<br>
-{{ site.time.to_date - post.date }}<br>
+<p "style: color: pink;">{{ site.time.to_date - post.date }}</p><br>
+<p "style: color: yellow;">{{ site.time.to_date - post.date }}</p><br>
 
 {% capture show %}
 {% for post in site.posts %}

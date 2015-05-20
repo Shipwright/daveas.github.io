@@ -28,7 +28,15 @@
     }
     &:visited {
       color: $gray-color;
-      style: italic;
+    }
+  }
+}
+
+@mixin post-links {
+  a {
+    color: $link-color;
+    &:hover {
+      color: $gray-color;
     }
   }
 }
@@ -124,6 +132,14 @@
 /**
  * Alignment
  */
+
+.emoji {
+  display: inline;
+  clear: none;
+  float: none;
+  text-align: left;
+  margin: 0;
+}
 
  .center {
    margin: auto auto;

@@ -14,7 +14,7 @@
     text-align: left;
     list-style: none;
     margin: 0px 0px $spacing-unit 0px;
-    @include blue-links;
+    @include post-links;
 
     > li {
         margin-bottom: $spacing-unit;
@@ -37,10 +37,7 @@
 }
 
 .post-title {
-    // font-size: 38px;
-    // line-height: $line-height;
-
-    @include media-query($on-laptop) {
+  @include media-query($on-laptop) {
         font-size: 30px;
     }
 }

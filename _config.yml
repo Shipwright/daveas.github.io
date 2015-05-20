@@ -6,14 +6,16 @@ description: Dave Seeman's blog
 url: "http://daveas.me"
 github: "http://daveas.github.io"
 google_analytics: UA-51898808-6
-long_name:   daveaseeman
-short_name:   daveas
+long_name: daveaseeman
+short_name: daveas
 
 # Build Settings
-markdown: kramdown
 permalink: /:categories/:title
 exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
+
+gems:
+  - jemoji

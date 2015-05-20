@@ -1,18 +1,21 @@
 <label class="collapse" for="_1">
   <h3 class="archive">Archive <i class="fa fa-archive"></i></h3>
+  <p class="post-meta">(18 months or older)</p>
 </label>
 <input id="_1" type="checkbox">
 <div>
   <ul class="post-list">
-    {% for post in site.categories.archive %}
+    {% capture cutoff_date %}{{ site.time | date: "%s" | minus: 47335389 }}{% endcapture %}
+    {% for post in site.categories.writing <!-- change later to site.posts --> %}
+    {% capture post_date %}{{ post.date | date: "%s" }}{% endcapture %}
+    {% if post_date <= cutoff_date %}
     <li>
-      <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-archive"></i> {{ post.title }}</a></h2>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <div class="post-excerpt">
-        {{ post.excerpt }}
-        <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a>
+      <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br>
+      {{ post.excerpt }}
       </div>
     </li>
-    {% endfor %}
+  {% endif %}
+  {% endfor %}
   </ul>
 </div>

@@ -42,17 +42,12 @@ ul, ol, dl, figure,
 /**
  * Images & iFrames
  */
-img {
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-.page-content img, iframe {
+img, iframe {
   display: block;
   text-align: center;
-  margin: 5px auto 5px auto;
+  max-width: 100%;
+  vertical-align: middle;
 }
-
 
 
 /**

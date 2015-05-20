@@ -1,6 +1,6 @@
 # Prose Settings
 prose:
-  rooturl: '/'
+  rooturl: '_posts'
   siteurl: 'http://daveas.me'
   media: '/assets/images'
   ignore:

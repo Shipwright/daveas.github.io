@@ -5,10 +5,20 @@ post date: {{ post.date | date: "%F" }}<br>
 {% endfor %}
 date diff1: {{ site.time | date: "%s" | minus: 31556926 | date: "%F" }}<br>
 date diff2: {{ 'now' | date: "%s" | minus: 31556926 | date: "%F" }}<br>
+
+{% capture cutoff_date %}{{ site.time | date: "%s" | minus: 31556926 }}{% endcapture %}
+{% for post in site.posts %} 
+{% capture post_date %}{{ post.date | date: "%s" }}{% endcapture %}
+{% if post_date >= cutoff_date %}
+{{ post.date | date: "%b %-d, %Y" }} - shown<br>
+{% else %}
+{{ post.date | date: "%b %-d, %Y" }} - hidden<br>
+{% endif %}
+{% endfor %}
+
 </p>
 
-{% capture todays_date %}{{ site.time | date: "%F" }}{% endcapture %}
-{% capture post_date %}{{ post.date | date: "%F" }}{% endcapture %}
+
 {% assign date_diff = todays_date - post_date %}
 {{ date_diff }}
 

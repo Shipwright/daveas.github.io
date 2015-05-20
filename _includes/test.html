@@ -1,5 +1,10 @@
-{{ site.time }}
-{{ site.time.to_date }}
+{{ site.time }}<br>
+{{ site.time.to_date }}<br>
+<br><br>
+{% for post in site.posts %}
+{{ post.date }}<br>
+{{ post.date.to_date }}<br>
+{% endfor %}
 
 {% capture show %}
 {% for post in site.posts %}

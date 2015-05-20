@@ -1,7 +1,7 @@
 <p>
-site time: {{ site.time }}<br>
+site time: {{ site.time | %Y%M%D }}<br>
 {% for post in site.posts limit: 1 %}
-post date: {{ post.date }}<br>
+post date: {{ post.date | %Y%M%D }}<br>
 {% endfor %}
 </p>
 

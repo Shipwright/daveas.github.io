@@ -1,10 +1,20 @@
+{{ date.today }}
+{% date.today %}
+
+{% capture show %}
+{% for post in site.posts %}
+{{ post.date }}
+{{ post.date.to_date }}
+{% endfor %}
+{% endcapture %}
+
 <label class="collapse" for="_1">
   <h3 class="archive">Archive <i class="fa fa-archive"></i></h3>
 </label>
 <input id="_1" type="checkbox">
 <div>
   <ul class="post-list">
-    {% for post in site.categories.archive %}
+    {% for post in site.posts %}
     <li>
       <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-archive"></i> {{ post.title }}</a></h2>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -16,3 +26,16 @@
     {% endfor %}
   </ul>
 </div>
+
+<!--{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}-->
+<!--{% assign tag_words = site_tags | split:',' | sort %}-->
+
+<!--<div class="tag-cloud">-->
+<!--  <h2>Tags</h2>-->
+<!--  <ul>-->
+<!--    {% for item in (0..site.tags.size) %}{% unless forloop.last %}-->
+<!--    {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}-->
+<!--    <li><a href="#{{ this_word | cgi_escape }}">{{ this_word }} <sup>{{ site.tags[this_word].size }}</sup></a></li>-->
+<!--    {% endunless %}{% endfor %}-->
+<!--  </ul>-->
+<!--</div>-->

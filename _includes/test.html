@@ -5,6 +5,12 @@ post date: {{ post.date | date: "%F" }}<br>
 {% endfor %}
 </p>
 
+{% capture todays_date %}{{ site.time | date: "%F" }}{% endcapture %}
+{% capture post_date %}{{ post.date | date: "%F" }}{% endcapture %}
+{% assign date_diff = todays_date - post_date %}
+{{ date_diff }}
+
+
 <!-- for posts, diff(site.time,post.date), if diff>1year, show, endif, endfor -->
 
 <label class="collapse" for="_1">

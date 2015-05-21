@@ -19,3 +19,4 @@ exclude:
 
 gems:
   - jemoji
+  - jekyll-sitemap

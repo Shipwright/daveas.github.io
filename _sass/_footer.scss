@@ -22,6 +22,11 @@
       color: $gray-color;
       @include gray-links;
       display: block;
+      img {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+      }
     }
   }
 }

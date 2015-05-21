@@ -13,7 +13,7 @@ permalink: /blog/
     {% if post_date > cutoff_date %}
     <li>
       <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br>
+      <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
       <p class="post-meta"><i class="fa fa-clock-o"></i> {{ post.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
       {{ post.excerpt }}
     </li>

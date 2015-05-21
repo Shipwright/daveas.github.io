@@ -12,12 +12,16 @@
 }
 
 .footer-meta {
+  color: $gray-color;
   padding-top: $spacing-unit/2;
   padding-bottom: $spacing-unit;
   ul {
-     list-style-type: none;
-     li {
-       display: block;
-     }
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+      @include gray-links;
+      display: block;
+    }
   }
 }

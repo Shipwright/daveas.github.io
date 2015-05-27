@@ -3,18 +3,10 @@
 */
 
 .site-header {
-  height: 100%;
-  background: url(/assets/images/bg2.jpeg) no-repeat left top fixed; 
-  // -webkit-background-size: cover;
-  // -moz-background-size: cover;
-  // -o-background-size: cover;
-  background-size: auto 100%;
-  // background-color: $brand-color;
+  height: 50%;
+  background-color: $brand-color;
   font-family: $head-font;
   @include white-links;
-  @include media-query($on-palm) {
-    background-size: auto 600px;
-  }
 }
 
 .site-title {
@@ -22,10 +14,6 @@
   line-height: $line-height;
   padding-top: 10%;
   padding-bottom: 5px;
-
-  @include media-query($on-palm) {
-    font-size: 50px;
-  }
 }
 
 .site-nav {

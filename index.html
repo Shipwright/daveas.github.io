@@ -12,8 +12,7 @@ layout: default
       {% for post in posts limit:1 %}
         <li>
           <h2 class="post-title">Latest Post: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
-          <p class="post-meta"><i class="fa fa-clock-o"></i> {{ post.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • <i class="fa fa-clock-o"></i> {{ post.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
           {{ post.excerpt }}
         </li>
       {% endfor %}
@@ -24,8 +23,7 @@ layout: default
       {% for project in projects limit:1 %}
         <li>
           <h2 class="post-title">Latest Project: <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h2>
-          <p class="post-meta">{{ project.date | date: "%b %-d, %Y" }}{% if project.author %} • {{ project.author }}{% endif %}{% if project.meta %} • {{ project.meta }}{% endif %}</p>
-          <p class="post-meta"><i class="fa fa-clock-o"></i> {{ project.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
+          <p class="post-meta">{{ project.date | date: "%b %-d, %Y" }} • <i class="fa fa-clock-o"></i> {{ project.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
           {{ project.excerpt }}
         </li>
       {% endfor %}

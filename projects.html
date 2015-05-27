@@ -6,12 +6,13 @@ permalink: /projects/
 
 <div class="home">
     <ul class="post-list">
-      {% for post in site.projects %}
+        {% assign projects = site.projects %}
+        {% for project in projects %}
       <li>
-        <h2 class="post-title"><a href="{{ site.projects.url | prepend: site.baseurl }}">{{ site.projects.title }}</a></h2>
-          <p class="post-meta">{{ site.projects.date | date: "%b %-d, %Y" }}</p>
-          <p class="post-meta"><i class="fa fa-clock-o"></i> {{ site.projects.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
-          {{ site.projects.excerpt }}
+        <h2 class="post-title"><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h2>
+          <p class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</p>
+          <p class="post-meta"><i class="fa fa-clock-o"></i> {{ project.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
+          {{ project.excerpt }}
       </li>
       {% endfor %}
     </ul>

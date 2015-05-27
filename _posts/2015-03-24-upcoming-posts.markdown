@@ -2,7 +2,7 @@
 layout: post
 title: "Upcoming Posts"
 date: "2015-03-24"
-stl: "SCR-Lift"
+stl: SCR-Lift
 category: work
 tags:
   - Engineering

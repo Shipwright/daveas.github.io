@@ -1,0 +1,22 @@
+---
+layout: default
+permalink: /projects/:path/
+---
+<div class="post">
+
+  <header class="post-header">
+    <div class="inline-list">
+      <ul class="post-meta">
+        <li>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} | </li>
+        {% for tag in page.tags %}<a href="/tags/#{{tag | replace: " ", "+" }}"><li><i class="fa fa-tag"></i> {{ tag }} </li></a>{% endfor %}
+      </ul>
+    </div>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  {% include comments.html %}
+
+</div>

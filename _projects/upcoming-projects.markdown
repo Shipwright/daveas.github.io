@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Upcoming Posts"
+title: "Upcoming Projects"
 date: "2015-03-24"
 stl: SCR-Lift
-category: work
+category:
 tags:
   - Engineering
   - Product
@@ -18,7 +18,8 @@ Upcoming Posts:
 
 Code:
 
-- My Jekyll Blog (this stie)
+- My Jekyll Blog (this site)
+- Jekyll Template (boiler plate)
 - Musician’s Jekyll Blog (for my dad)
 - Writer's Jekyll Blog (for a friend)
 - Favorite Jekyll hacks

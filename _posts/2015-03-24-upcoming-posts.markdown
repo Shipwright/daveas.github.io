@@ -2,6 +2,7 @@
 layout: post
 title: "Upcoming Posts"
 date: "2015-03-24"
+stl: 'SCR-Lift'
 category: work
 tags:
   - Engineering
@@ -26,3 +27,4 @@ CAD:
 - Printable Chess Pieces & Board
 - Printable & Brandable Coffee Mug
 
+{% include stl.html %}

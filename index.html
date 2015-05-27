@@ -8,7 +8,8 @@ layout: default
     {{ intro | markdownify }}
 
     <ul class="post-list">
-      {% for post in site.categories.writing limit:1 %}
+      {% assign posts = site.posts %}
+      {% for post in posts limit:1 %}
         <li>
           <h2 class="post-title">Latest Writing: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
@@ -19,13 +20,13 @@ layout: default
     </ul>
 
     <ul class="post-list">
-      {% for post in site.categories.work limit:1 %}
+      {% assign projects = site.projects %}
+      {% for project in projects limit:1 %}
         <li>
-          <h2 class="post-title">Latest Work: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
-          <p class="post-meta"><i class="fa fa-clock-o"></i> {{ post.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
-          {{ post.excerpt }}
-          <a href="{{ post.url | prepend: site.baseurl }}" target="_blank"></a>
+          <h2 class="post-title">Latest Work: <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h2>
+          <p class="post-meta">{{ project.date | date: "%b %-d, %Y" }}{% if project.author %} • {{ project.author }}{% endif %}{% if project.meta %} • {{ project.meta }}{% endif %}</p>
+          <p class="post-meta"><i class="fa fa-clock-o"></i> {{ project.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
+          {{ project.excerpt }}
         </li>
       {% endfor %}
     </ul>

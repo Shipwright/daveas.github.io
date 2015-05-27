@@ -29,4 +29,3 @@ CAD:
 
 {% include stl.html %}
 
-<script src="https://embed.github.com/view/3d/daveas/3D-Products/master/SCR-Lift/SCR-Lift.stl"></script>

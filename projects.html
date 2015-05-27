@@ -9,7 +9,7 @@ permalink: /projects/
         {% assign projects = site.projects %}
         {% for project in projects %}
       <li>
-        <h2 class="post-title"><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h2>
+        <h2><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h2>
           <p class="post-meta">{{ project.date | date: "%b %-d, %Y" }} • <i class="fa fa-clock-o"></i> {{ project.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
           {{ project.excerpt }}
       </li>

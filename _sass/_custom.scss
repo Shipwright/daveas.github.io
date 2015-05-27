@@ -99,8 +99,6 @@
 
  .center {
    margin: auto auto;
-   float: none;
-   clear: both;
    text-align: center;
  }
 
@@ -121,3 +119,7 @@
    margin-bottom: $spacing-unit*1.2;
    margin-top: $spacing-unit;
  }
+
+ /**
+  * Forms & Buttons:
+  */

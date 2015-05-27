@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: project
 title: Upcoming Projects
-permalink: /projects/upcoming-projects
 date: 2015-03-24
 stl: SCR-Lift
 category:

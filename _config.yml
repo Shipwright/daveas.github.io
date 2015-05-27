@@ -17,7 +17,9 @@ exclude:
   - LICENSE
   - README.md
 collections:
-  - projects
+  projects:
+    output: true
+    permalink: /projects/:path/
 gems:
   - jemoji
   - jekyll-sitemap

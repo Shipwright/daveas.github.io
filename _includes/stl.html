@@ -1,14 +1,1 @@
----
----
-{% capture stlName %}
-[
-{% for post in site.posts %}
-{
-"stl"    : "{{ post.stl }}",
-} {% if forloop.last %}{% else %},{% endif %}
-{% endfor %}
-]
-{% endcapture %}
-var stlName = {{stlName | strip_newlines}}
-
-<script src="https://embed.github.com/view/3d/daveas/3D-Models/master/stlName/stlName.stl"></script>
+<script src="https://embed.github.com/view/3d/daveas/3D-Models/master/{{post.stl}}/{{post.stl}}.stl"></script>

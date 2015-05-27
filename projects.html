@@ -5,16 +5,14 @@ permalink: /projects/
 ---
 
 <div class="home">
-
     <ul class="post-list">
-      {% for post in site.categories.work %}
+      {% for post in site.projects %}
       <li>
-        <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <p class="post-meta"><i class="fa fa-clock-o"></i> {{ post.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
-          {{ post.excerpt }}
+        <h2 class="post-title"><a href="{{ site.projects.url | prepend: site.baseurl }}">{{ site.projects.title }}</a></h2>
+          <p class="post-meta">{{ site.projects.date | date: "%b %-d, %Y" }}</p>
+          <p class="post-meta"><i class="fa fa-clock-o"></i> {{ site.projects.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
+          {{ site.projects.excerpt }}
       </li>
       {% endfor %}
     </ul>
-
 </div>

@@ -3,8 +3,13 @@
 */
 
 .site-header {
-  height: 50%;
-  background-color: $brand-color;
+  height: 100%;
+  background: url(/assets/images/bg2.jpeg) no-repeat left top fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  // background-color: $brand-color;
   font-family: $head-font;
   @include white-links;
 }

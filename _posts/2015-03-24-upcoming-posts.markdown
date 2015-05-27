@@ -17,15 +17,16 @@ There are a few projects I want to finish, this blog being one of them. Once I g
 Upcoming Posts:
 
 Code:
+
 - My Jekyll Blog (this stie)
 - Musician’s Jekyll Blog (for my dad)
 - Writer's Jekyll Blog (for a friend)
 - Favorite Jekyll hacks
 
 CAD:
+
 - Printable Gear System
 - Printable Chess Pieces & Board
 - Printable & Brandable Coffee Mug
 
 {% include stl.html %}
-

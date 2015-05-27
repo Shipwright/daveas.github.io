@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Upcoming Projects"
-date: "2015-03-24"
+title: Upcoming Projects
+permalink: /projects/upcoming-projects
+date: 2015-03-24
 stl: SCR-Lift
 category:
 tags:
@@ -9,7 +10,6 @@ tags:
   - Product
   - Design
 excerpt: "There are a few projects I want to finish, this blog being one of them. Once I get two or three completed I plan to make a post for each one sharing both my process and the final works whether they be CAD files or source code. Check back later to see them!"
-published: true
 ---
 
 There are a few projects I want to finish, this blog being one of them. Once I get two or three completed I plan to make a post for each one sharing both my process and the final works whether they be CAD files or source code. Check back later to see them!

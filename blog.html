@@ -7,8 +7,9 @@ permalink: /blog/
 <div class="home">
 
   <ul class="post-list">
+    {% assign posts = site.posts %}
     {% capture cutoff_date %}{{ site.time | date: "%s" | minus: 47335389 }}{% endcapture %}
-    {% for post in site.categories.writing <!-- change later to site.posts --> %}
+    {% for post in posts %}
     {% capture post_date %}{{ post.date | date: "%s" }}{% endcapture %}
     {% if post_date > cutoff_date %}
     <li>

@@ -10,7 +10,7 @@ long_name: daveaseeman
 short_name: daveas
 
 # Build Settings
-permalink: /posts/:path/
+permalink: /posts/:title/
 exclude:
   - Gemfile
   - Gemfile.lock

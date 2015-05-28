@@ -7,7 +7,9 @@
   background-color: $brand-color;
   font-family: $head-font;
   @include white-links;
-  padding: $spacing-unit*2;
+  padding-top: $spacing-unit*2;
+  padding-bottom: $spacing-unit*2;
+
 }
 
 .site-title {
@@ -15,6 +17,7 @@
 }
 
 .site-nav {
+  line-height: 1;
   background-color: $brand-color;
   color: $gray-color;
 }

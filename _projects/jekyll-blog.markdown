@@ -10,6 +10,7 @@ tags:
 - css
 - jekyll
 excerpt: "After becoming somewhat frustrated with my current blogging service and deciding to cultivate a more frugal lifestyle, I decided to create a new, FREE, blog. Having recently become fairly proficient in HTML, CSS, and Ruby, I landed"
+published: false
 ---
 
 After becoming somewhat frustrated with my current blogging service and deciding to [cultivate a more frugal lifestyle]({{site.url}}/writing/spend-less-program-more/), I decided to create a new, FREE, blog. Having recently become fairly proficient in HTML, CSS, and Ruby, I landed on Jekyll as an ideal service. Using GitHub pages, I could host my blog for free, forever, and have 100% control over how it looked and felt.

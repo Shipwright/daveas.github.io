@@ -200,15 +200,15 @@ h1 {
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 40px;
     @include media-query($on-palm) {
-        font-size: 44px;
+        font-size: 36px;
     }
 }
 
 h3 {
-    font-Size: 32px;
+    font-Size: 30px;
     @include media-query($on-palm) {
-        font-size: 28px;
+        font-size: 26px;
     }
 }

@@ -12,9 +12,10 @@ prose:
     - '404.md'
     - 'README.md'
     - '_config.yml'
-    - 'prose.yml'
+    - prose.yml
     - '/_layouts'
     - '/_sass'
+    - '/_site'
     - '/css'
   metadata:
     _posts:

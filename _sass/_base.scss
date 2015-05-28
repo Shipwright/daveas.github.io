@@ -195,7 +195,7 @@ pre {
 h1 {
     font-size: 64px;
     @include media-query($on-palm) {
-        font-size: 20px;
+        font-size: 60px;
     }
 }
 

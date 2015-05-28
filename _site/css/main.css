@@ -12,11 +12,7 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-html {
-  height: 100%; }
-
 body {
-  height: 100%;
   font-family: "Merriweather Sans", serif;
   font-size: 22px;
   line-height: 1.4;
@@ -160,25 +156,19 @@ h1 {
   font-size: 80px; }
   @media screen and (max-width: 600px) {
     h1 {
-      font-size: 52px; } }
+      font-size: 64px; } }
 
 h2 {
-  font-size: 32px; }
+  font-size: 40px; }
   @media screen and (max-width: 600px) {
     h2 {
-      font-size: 28px; } }
+      font-size: 32px; } }
 
 h3 {
-  font-size: 26px; }
+  font-size: 36px; }
   @media screen and (max-width: 600px) {
     h3 {
-      font-size: 22px; } }
-
-h4 {
-  font-size: 20px; }
-  @media screen and (max-width: 600px) {
-    h4 {
-      font-size: 18px; } }
+      font-size: 26px; } }
 
 /**
  * Link Mixins
@@ -337,19 +327,17 @@ hr {
 * Site header
 */
 .site-header {
-  height: 50%;
+  color: #ffffff;
   background-color: #34495e;
-  font-family: "Bitter", sans-serif; }
+  font-family: "Bitter", sans-serif;
+  padding: 60px; }
   .site-header a {
     color: #ffffff; }
     .site-header a:hover {
       color: #16a085; }
 
 .site-title {
-  color: #ffffff;
-  line-height: 1.4;
-  padding-top: 12%;
-  padding-bottom: 5px; }
+  color: #ffffff; }
 
 .site-nav {
   background-color: #34495e;

@@ -3,17 +3,15 @@
 */
 
 .site-header {
-  height: 50%;
+  color: $back-color;
   background-color: $brand-color;
   font-family: $head-font;
   @include white-links;
+  padding: $spacing-unit*2;
 }
 
 .site-title {
   color: $back-color;
-  line-height: $line-height;
-  padding-top: 12%;
-  padding-bottom: 5px;
 }
 
 .site-nav {

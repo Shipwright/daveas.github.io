@@ -1,6 +1,5 @@
 # Prose Settings
 prose:
-  rooturl: '_posts'
   siteurl: 'http://daveas.me'
   media: '/assets/images'
   ignore:
@@ -9,17 +8,12 @@ prose:
     - Gemfile
     - Gemfile.lock
     - CNAME
-    - index.html
     - 404.md
-    - about.md
-    - blog.html
-    - projects.html
-    - tags.html
     - _config.yml
     - /_layouts
-    - /_includes
     - /_sass
     - /css
+    - *.html
   metadata:
     _posts:
       - name: "layout"

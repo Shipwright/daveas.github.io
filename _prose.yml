@@ -3,7 +3,8 @@ prose:
   siteurl: 'http://daveas.me'
   media: '/assets/images'
   ignore:
-    - .gitignore
+    - '.gitignore'
+    - '*.html'
     - feed.xml
     - Gemfile
     - Gemfile.lock
@@ -13,7 +14,6 @@ prose:
     - /_layouts
     - /_sass
     - /css
-    - *.html
   metadata:
     _posts:
       - name: "layout"

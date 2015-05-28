@@ -12,15 +12,15 @@ excerpt: "This planetary gear system was part of a project in my 3D CAD class in
 published: false
 ---
 
-![gear system](https://github.com/daveas/3D-Models/raw/master/Gear-System/still-planet.gif)
 
 ### Planet
 <script src="https://embed.github.com/view/3d/daveas/3D-Products/master/Gear-System/Involute-Gear-Planet.stl"></script>
+![planet still](https://github.com/daveas/3D-Models/raw/master/Gear-System/still-planet.gif)
 
 ### Sun
 <script src="https://embed.github.com/view/3d/daveas/3D-Products/master/Gear-System/Involute-Gear-Sun.stl"></script>
+![sun still](https://github.com/daveas/3D-Models/raw/master/Gear-System/still-sun.gif)
 
 ### Ring
 <script src="https://embed.github.com/view/3d/daveas/3D-Products/master/Gear-System/Involute-Gear-Ring.stl"></script>
-
-
+![still ring](https://github.com/daveas/3D-Models/raw/master/Gear-System/still-ring.gif)

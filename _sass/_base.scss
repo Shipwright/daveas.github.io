@@ -193,25 +193,22 @@ pre {
  * Headers
  */
 h1 {
-    font-size: 80px;
-
+    font-size: 64px;
     @include media-query($on-palm) {
-        font-size: 64px;
+        font-size: 60px;
     }
 }
 
 h2 {
-    font-size: 40px;
-
+    font-size: 48px;
     @include media-query($on-palm) {
-        font-size: 32px;
+        font-size: 44px;
     }
 }
 
 h3 {
-    font-size: 36px;
-
+    font-Size: 32px;
     @include media-query($on-palm) {
-        font-size: 26px;
+        font-size: 28px;
     }
 }

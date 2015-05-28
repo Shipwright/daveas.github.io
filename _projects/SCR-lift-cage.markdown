@@ -8,6 +8,7 @@ tags:
 - CAD
 - Engineering
 excerpt: "By using a simple cage to move SCR logs we could reduce the time to change them out by a factor of 4."
+published: false
 ---
 
 {% include stl.html %}

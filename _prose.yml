@@ -5,15 +5,17 @@ prose:
   ignore:
     - '.gitignore'
     - '*.html'
-    - feed.xml
-    - Gemfile
-    - Gemfile.lock
-    - CNAME
-    - 404.md
-    - _config.yml
-    - /_layouts
-    - /_sass
-    - /css
+    - '*.xml'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+    - 'CNAME'
+    - '404.md'
+    - 'README.md'
+    - '_config.yml'
+    - 'prose.yml'
+    - '/_layouts'
+    - '/_sass'
+    - '/css'
   metadata:
     _posts:
       - name: "layout"

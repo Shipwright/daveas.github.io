@@ -1,1 +1,3 @@
-{{ site.projects }}
+{% for project in site.projects %}
+{{ project.title }}
+{% endfor %}

@@ -1,3 +1,5 @@
-{% for project in site.projects %}
-{{ project.title }}
+{% for post in site.posts %}
+<ul>{% if post.project == page.title %}
+  <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+{% endif %}</ul>
 {% endfor %}

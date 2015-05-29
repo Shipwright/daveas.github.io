@@ -153,19 +153,19 @@ th {
  * Headers
  */
 h1 {
-  font-size: 80px; }
+  font-size: 64px; }
   @media screen and (max-width: 600px) {
     h1 {
-      font-size: 64px; } }
+      font-size: 60px; } }
 
 h2 {
   font-size: 40px; }
   @media screen and (max-width: 600px) {
     h2 {
-      font-size: 32px; } }
+      font-size: 36px; } }
 
 h3 {
-  font-size: 36px; }
+  font-Size: 30px; }
   @media screen and (max-width: 600px) {
     h3 {
       font-size: 26px; } }
@@ -328,16 +328,23 @@ hr {
 */
 .site-header {
   color: #ffffff;
+  text-align: center;
   background-color: #34495e;
   font-family: "Bitter", sans-serif;
-  padding: 60px; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
   .site-header a {
     color: #ffffff; }
     .site-header a:hover {
       color: #16a085; }
 
 .site-title {
-  color: #ffffff; }
+  display: inline-block;
+  color: #ffffff;
+  border: 5px solid #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 45px; }
 
 .site-nav {
   background-color: #34495e;

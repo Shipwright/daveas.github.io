@@ -8,6 +8,7 @@ tags:
 - Information Design
 - Web Design
 excerpt: "I went through many iterations, continuously improving the pitch"
+published: false
 ---
 
 {{ page.excerpt }}

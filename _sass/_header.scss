@@ -4,6 +4,7 @@
 
 .site-header {
   color: $back-color;
+  text-align: center;
   background-color: $brand-color;
   font-family: $head-font;
   @include white-links;
@@ -13,7 +14,12 @@
 }
 
 .site-title {
+  display: inline-block;
   color: $back-color;
+  border: 5px solid $back-color;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: $spacing-unit*1.5;
 }
 
 .site-nav {

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Jekyll Blog"
 date: "2015-02-17"
 categories:

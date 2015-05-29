@@ -20,10 +20,8 @@ permalink: /projects/:path/
 
   {% include comments.html %}
   
-{% for post in site.posts %}
-<ul>{% if post.project == page.title %}
-  <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-{% endif %}</ul>
-{% endfor %}
+  {% assign match = false %}
+  {% for post in site.posts %}{% if post.project == page.title %}{% assign match = true %}{% endif %}{% endfor %}
+  {% if match == true %}<h3>See Related Posts:</h3><ul>{% for post in site.posts %}<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>{% endfor %}</ul>{% endif %}
 
 </div>

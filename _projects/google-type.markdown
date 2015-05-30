@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: project
 title: Google Type Project
-date: "2015-03-08"
-category: work
+date: 2015-03-08
+category: Design, Programming
 tags:
-- tag
-- tag
+- Web Design
+- Typography
 excerpt: "Excerpt"
 published: false
 ---

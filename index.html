@@ -19,14 +19,17 @@ layout: default
     </ul>
 
     <ul class="post-list">
-      {% assign projects = site.projects %}
-      {% for project in projects %}{% if project.published == true limit:1 %}
+      {% assign projects = site.projects | sort: 'date' %}
+      {% for project in projects reversed %}
+      {% if project.published == true %}
         <li>
           <h2>Latest Project: <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h2>
           <p class="post-meta">{{ project.date | date: "%b %-d, %Y" }} • <i class="fa fa-clock-o"></i> {{ project.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
           {{ project.excerpt }}
         </li>
-      {% endif %}{% endfor %}
+      {% break %}
+      {% endif %}
+      {% endfor %}
     </ul>
 
 </div>

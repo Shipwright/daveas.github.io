@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <meta name="author" content="Dave" />
+  <meta name="keywords" content="CAD, Mechanical, Engineering"/>
+  <meta name="description" content="I always wanted a laptop board but I was not happy with what was available. They were all ugly and innefective or loud (if they had fans). So I decided to make one out of wood and metal that would be more attractive and passively effective."">
+
+  <title>Laptop Board</title>
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://daveas.me/projects/laptop-board/">
+  <link rel="alternate" type="application/atom+xml" title="David A Seeman" href="http://daveas.me/feed.xml" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <script src='/assets/javascripts/instafeed.min.js'></script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="https://assets-cdn.github.com/images/icons/emoji/unicode/26f5.png">
+  <link rel="icon" type="image/png" href="https://assets-cdn.github.com/images/icons/emoji/unicode/26f5.png">
+  <link rel="shortcut icon" href="https://assets-cdn.github.com/images/icons/emoji/unicode/26f5.png">
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-51898808-6', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+  <body>
+
+    <header class="site-header">
+  <div class="wrapper">
+    <h1 class="site-title center"><a href="/">David A Seeman</a></h1>
+    <div class="inline-list">
+      <ul class="site-nav center">
+        <li><a href="/"><i class="fa fa-anchor"></i></a> •
+        <li><a href="/about">About</a></li> •
+        <li><a href="/posts/">Posts</a></li> •
+        <li><a href="/projects/">Projects</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h2>Laptop Board</h2>
+    <div class="inline-list">
+      <ul class="post-meta">
+        <li>Jan 20, 2012 | </li>
+        <a href="/tags/#CAD"><li><i class="fa fa-tag"></i> CAD </li></a><a href="/tags/#Mechanical"><li><i class="fa fa-tag"></i> Mechanical </li></a><a href="/tags/#Engineering"><li><i class="fa fa-tag"></i> Engineering </li></a>
+      </ul>
+    </div>
+  </header>
+
+  <article class="post-content">
+    I always wanted a laptop board but I was not happy with what was available. They were all ugly and innefective or loud (if they had fans). So I decided to make one out of wood and metal that would be more attractive and passively effective."
+    <hr></hr>
+    <h3 id="materials">Materials:</h3>
+
+<p>I knew I wanted to use a hardwood for the body and a metal as the heat conductive surface. I chose a red oak board from Lowe’s for maximum stiffness &amp; hardness and started looking at how to find my metal. To get started I knew that I needed to select the metal with the highest possible thermal conductivity, “k”, to increase the amount of heat transfer “q”, as they are directly proportional: \[q = kA\frac{dT}{s} \]</p>
+
+<p>I knew I was going to order the metal form a website called <a href="http://www.onlinemetals.com">Online Metals</a> which mainly offers aluminum, steel, cooper, brass, nickel, and titanium.</p>
+
+<p>I know copper would be highest and aluminum second, but I decided to record the values just in case. Here are some sample values of q:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Material</th>
+      <th style="text-align: center">q (W/m<sup>2</sup>K)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Copper</td>
+      <td style="text-align: center">386</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Aluminum</td>
+      <td style="text-align: center">202</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Brass</td>
+      <td style="text-align: center">99</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Nickel</td>
+      <td style="text-align: center">62</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Titanium</td>
+      <td style="text-align: center">19</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Stainless Steel</td>
+      <td style="text-align: center">16</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Of the aluminum selection at Online Metals, the best choice was aircraft grade 6061-T6 at 167 W/m<sup>2</sup>K.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Aluminum</th>
+      <th style="text-align: center">q (W/m<sup>2</sup>K)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">2024-T3</td>
+      <td style="text-align: center">121</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">5052-H32</td>
+      <td style="text-align: center">138</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">5086-H32</td>
+      <td style="text-align: center">125</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>6061-T6</strong></td>
+      <td style="text-align: center"><strong>167</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">7075-T6</td>
+      <td style="text-align: center">130</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="construction">Construction:</h3>
+
+<p>I went to a friend’s house who has an immaculate wood shop. We checked out everything he had before deciding on how we would reduce the wood to create a reasonable amount of airflow. I had invisioned a series of holes at the bottom through to the conductive surface and slots on the sides to allow heat to escape as it rose without marring the appearance of the top surface.</p>
+
+<p>We planed the work piece and then secured it to fillet the sides with a router:
+<img src="/assets/images/laptop-board/1.jpg" alt="2" />
+Finished edges after staining:
+<img src="/assets/images/laptop-board/2.jpg" alt="2" /></p>
+
+<p>We then mounted the router in the router table and raised it above the height of the table equal to the thickness of the metal sheet, and built a rectangular jig around it within which moving the work piece would move the piece over the router to create the bore equal to the size of the cut metal surface. Next we drilled a matrix of through holes for ventilation, and lastly we bore three logitudinal slots on the sides of the work piece with the router.
+<img src="/assets/images/laptop-board/3.jpg" alt="3" /></p>
+
+<p>And the finished product:
+<img src="/assets/images/laptop-board/4.jpg" alt="4" /></p>
+
+<p>It works great!</p>
+
+  </article>
+
+  <!-- insert comments form here -->
+
+
+  
+  
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+  <div class="inline-list">
+    <ul>
+      <li>
+        <a href="https://twitter.com/daveaseeman">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="https://instagram.com/daveaseeman">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="https://linkedin.com/in/daveaseeman">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/daveas">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-git fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="/feed.xml">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-meta">
+    <ul>
+      <li><i class="fa fa-copyright"></i> 2014-2015 Dave</li>
+      <li>Made with <a href="http://github.com/daveas/daveas.github.io"><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/26f5.png"></img></a> in TN</li>
+      <li><a href="mailto:daveseeman12@gmail.com?Subject=Hi%20Dave"><i class="fa fa-envelope"></i> me</a></li>
+    </ul>
+  </div>
+</footer>
+
+
+  </body>
+
+</html>

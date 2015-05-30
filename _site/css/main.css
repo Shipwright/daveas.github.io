@@ -174,32 +174,6 @@ h3 {
  * Link Mixins
  */
 /**
- * Archive
- */
-.archive {
-  margin: 0 auto;
-  text-align: center; }
-
-.archive-meta {
-  margin: 0 auto;
-  text-align: center;
-  font-size: 17.5px;
-  color: #d3d3d3;
-  padding-bottom: 30px; }
-
-.collapse {
-  display: block; }
-
-.collapse + input {
-  display: none; }
-
-.collapse + input + * {
-  display: none; }
-
-.collapse + input:checked + * {
-  display: block; }
-
-/**
  * Tags
  */
 .tag-cloud a {
@@ -261,6 +235,26 @@ h3 {
   margin: auto auto;
   text-align: center; }
 
+.meta {
+  font-size: 17.5px;
+  color: #d3d3d3; }
+  .meta a {
+    color: #d3d3d3; }
+    .meta a:hover {
+      color: #16a085; }
+
+.collapse {
+  display: inline-block; }
+
+.collapse + input {
+  display: none; }
+
+.collapse + input + * {
+  display: none; }
+
+.collapse + input:checked + * {
+  display: inline-block; }
+
 .inline-list ul {
   margin: 0;
   padding: 0;
@@ -273,6 +267,39 @@ hr {
   margin: 0 auto;
   margin-bottom: 36px;
   margin-top: 30px; }
+
+.MathJax {
+  font-family: "Oxygen Mono", serif; }
+
+.iframe-wrapper {
+  position: relative; }
+
+.iframe-page {
+  position: absolute;
+  width: 100%;
+  padding: 40px;
+  z-index: 9999;
+  top: 0;
+  height: 100%; }
+  @media screen and (max-width: 600px) {
+    .iframe-page {
+      padding: 20px; } }
+
+.fitpage {
+  width: 90%;
+  height: 60%; }
+
+.slideshares {
+  width: 840px;
+  height: 630px; }
+  @media screen and (max-width: 600px) {
+    .slideshares {
+      width: 500px;
+      height: 375px; } }
+
+.scribds {
+  width: 100%;
+  height: 600px; }
 
 /**
  * Forms & Buttons:

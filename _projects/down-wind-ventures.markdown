@@ -1,15 +1,10 @@
 ---
 layout: project
 title: Down Wind Ventures
-date: "2015-03-08"
-category: 
-- Design
+date: 2014-12-01
+category: Design
 tags:
 - Graphic Design
-- Brand Design
-- Identity Design
 excerpt: "Down Wind Ventures"
-output: false
+published: false
 ---
-
-{{ page.excerpt }}

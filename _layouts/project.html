@@ -15,11 +15,13 @@ permalink: /projects/:path/
   </header>
 
   <article class="post-content">
+    {{ page.excerpt }}
+    <hr></hr>
     {{ content }}
   </article>
 
   {% include comments.html %}
-  
+
   {% assign match = false %}
   {% for post in site.posts %}{% if post.project == page.title %}{% assign match = true %}{% endif %}{% endfor %}
   {% if match == true %}<h3>See Related Posts:</h3><ul>{% for post in site.posts %}<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>{% endfor %}</ul>{% endif %}

@@ -1,14 +1,12 @@
 ---
 layout: project
-title: "Jekyll Blog"
-date: "2015-02-17"
-categories:
-- code
+title: Jekyll Blog
+date: 2015-02-17
+categories: Programming, Design
 tags:
-- ruby
-- html
-- css
-- jekyll
+- Ruby
+- Web Design
+- Jekyll
 excerpt: "After becoming somewhat frustrated with my current blogging service and deciding to cultivate a more frugal lifestyle, I decided to create a new, FREE, blog. Having recently become fairly proficient in HTML, CSS, and Ruby, I landed"
 published: false
 ---

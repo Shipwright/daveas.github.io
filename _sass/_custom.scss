@@ -132,10 +132,9 @@
    -webkit-overflow-scrolling:touch !important;
    overflow-y: scroll !important;
    @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
-     padding-left: 10px;
-    //  margin-left: 10px;
+     padding-left: 15px;
      width: 90%;
-     height: 60%;
+     height: 65%;
    }
  }
  .fitpage {

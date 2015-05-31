@@ -132,10 +132,10 @@
  .fitpage {
    width: 90%;
    height: 60%;
-  //  @include media-query($on-palm) {
-  //    width: 430px;
-  //    height: 260px;
-  // }
+   @include media-query($on-palm) {
+     max-width: $content-width;
+     max-height: 100%
+  }
 }
 
  .slideshares {

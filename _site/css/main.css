@@ -273,6 +273,7 @@ hr {
 
 .iframe-wrapper {
   width: 100%;
+  margin: 0 auto;
   position: relative;
   float: left;
   text-align: center; }
@@ -290,8 +291,8 @@ hr {
   overflow-y: scroll !important; }
   @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
     .iframe-page {
-      height: 60%;
-      width: 95%; } }
+      width: 85%;
+      height: 40%; } }
 
 .fitpage {
   margin: 0 auto;

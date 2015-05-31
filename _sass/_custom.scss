@@ -115,13 +115,13 @@
 
  .iframe-wrapper {
    width: 100%;
+   margin: 0 auto;
    position: relative;
    float: left;
    text-align: center;
  }
  .iframe-page {
    margin: 0 auto;
-   display: inline-block;
    position: absolute;
    padding-top: 4%;
    width: 100%;
@@ -133,7 +133,7 @@
    overflow-y: scroll !important;
    @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
      width: 85%;
-     height: 50%;
+     height: 40%;
    }
  }
  .fitpage {

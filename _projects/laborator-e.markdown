@@ -42,6 +42,6 @@ And you can view the page live [here](http://daveas.github.com/laboratore), or r
 <div class="iframe-wrapper">
   <a href="http://daveas.github.com/laboratore"><img src="/assets/images/mac.png">
   <div class="iframe-page">
-    <iframe src="http://daveas.github.com/laboratore" class="fitpage"></iframe>
+    <iframe src="http://daveas.github.com/laboratore" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" class="fitpage"></iframe>
   </div></a>
 </div>

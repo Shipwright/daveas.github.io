@@ -130,15 +130,16 @@
    overflow: auto;
    -webkit-overflow-scrolling:touch !important;
    overflow-y: scroll !important;
+   @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+     height: 60%;
+     width: 95%;
+   }
  }
  .fitpage {
    margin: 0 auto;
    display: inline-block;
    width: 90%;
    height: 65%;
-   @include media-query($on-palm) {
-     padding: 0 3% 3% 20%;
-  }
 }
 
  .slideshares {

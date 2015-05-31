@@ -124,7 +124,8 @@
    top: 0;
    height: 100%;
    overflow: auto;
-   -webkit-overflow-scrolling:touch;
+   -webkit-overflow-scrolling:touch !important;
+   overflow-y: scroll !important;
    @include media-query($on-palm) {
      padding: 20px;
    }
@@ -142,8 +143,8 @@
    width: $content-width;
    height: $content-width*.75;
    @include media-query($on-palm) {
-     width: 500px;
-     height: 375px;
+     max-width: 500px;
+     max-height: 375px;
    }
  }
 

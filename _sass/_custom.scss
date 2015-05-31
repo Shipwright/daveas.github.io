@@ -133,6 +133,7 @@
    overflow-y: scroll !important;
    @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
      margin-left: 15px;
+     margin-top: 10px;
      width: 90%;
      height: 65%;
    }

@@ -6,6 +6,7 @@ permalink: /posts/
 
 <div class="home">
 
+  <!-- POST LIST -->
   <ul class="post-list">
     {% assign posts = site.posts %}
     {% capture cutoff_date %}{{ site.time | date: "%s" | minus: 47335389 }}{% endcapture %}
@@ -15,16 +16,35 @@ permalink: /posts/
     <li>
       <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
       <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • <i class="fa fa-clock-o"></i> {{ post.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
-      {{ post.excerpt }}
+      <p>{{ post.excerpt }}</p>
     </li>
-  {% endif %}
-  {% endfor %}
+    {% endif %}
+    {% endfor %}
   </ul>
 
-  {% include tinyletter.html %}
-
-  <hr></hr>
-
-  {% include archive.html %}
+  <!-- ARCHIVE -->
+  <div class="center">
+    <label class="collapse" for="_1">
+      <h3 class="center">Archive <i class="fa fa-archive"></i></h3>
+      <p class="center meta">(18 months or older)</p>
+    </label><input id="_1" type="checkbox">
+    <div>
+      <ul class="post-list">
+        {% assign posts = site.posts %}
+        {% capture cutoff_date %}{{ site.time | date: "%s" | minus: 47335389 }}{% endcapture %}
+        {% for post in posts %}
+        {% capture post_date %}{{ post.date | date: "%s" }}{% endcapture %}
+        {% if post_date <= cutoff_date %}
+        <li>
+          <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • <i class="fa fa-clock-o"></i> {{ post.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
+          <p>{{ post.excerpt }}</p>
+        </div>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
 </div>

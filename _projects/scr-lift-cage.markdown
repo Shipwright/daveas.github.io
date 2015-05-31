@@ -6,6 +6,7 @@ category: Engineering
 tags:
 - 3D CAD
 - Mechanical Engineering
+- Metal
 excerpt: "I wanted to work on a CAD project during my summer co-op with Duke Energy. So I looked around for a place I could create something of value and decided that I could reduce the downtime of a piece of equipment by building a simple lift rig."
 published: true
 ---

@@ -2,10 +2,10 @@
 layout: project
 title: Google Type Project
 date: 2015-03-08
-category: Design, Programming
+category: Design
 tags:
 - Web Design
-- Typography
+- Graphic Design
 excerpt: "Excerpt"
 published: false
 ---

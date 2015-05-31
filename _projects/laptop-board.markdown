@@ -2,12 +2,12 @@
 layout: project
 title: Laptop Board
 date: 2012-01-20
-category: work
+category: Engineering
 tags:
-- CAD
-- Mechanical
-- Engineering
-excerpt: I always wanted a laptop board but I was not happy with what was available. They were all ugly and innefective or loud (if they had fans). So I decided to make one out of wood and metal that would be more attractive and passively effective."
+- Mechanical Engineering
+- Wood
+- Metal
+excerpt: I always wanted a laptop board but I was not happy with what was available. They were all ugly and innefective or loud (if they had fans). So I decided to make one out of wood and metal that would be more attractive and passively effective.
 published: true
 dir: laptop-board/
 ---

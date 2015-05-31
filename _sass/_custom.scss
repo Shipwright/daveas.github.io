@@ -136,6 +136,10 @@
    display: inline-block;
    width: 90%;
    height: 65%;
+   @include media-query($on-palm) {
+     width: 80%;
+     height: 50%;
+  }
 }
 
  .slideshares {

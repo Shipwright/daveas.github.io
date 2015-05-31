@@ -128,9 +128,13 @@
    }
  }
  .fitpage {
-  width: 90%;
-  height: 60%;
- }
+   width: 90%;
+   height: 60%;
+   @include media-query($on-palm) {
+     width: 430px;
+     height: 260px;
+  }
+}
 
  .slideshares {
    width: $content-width;

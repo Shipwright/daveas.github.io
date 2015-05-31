@@ -288,6 +288,10 @@ hr {
 .fitpage {
   width: 90%;
   height: 60%; }
+  @media screen and (max-width: 600px) {
+    .fitpage {
+      width: 430px;
+      height: 260px; } }
 
 .slideshares {
   width: 840px;

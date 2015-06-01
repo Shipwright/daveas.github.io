@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Safe Power Plug
-date: 2010-08-19
+date: 2015-03-30
 category: Engineering, Design
 tags:
 - Sketching
@@ -13,4 +13,4 @@ dir: safe-plug/
 
 
 The product is a plug with no prongs. It snaps into a recessed outlet and transmits power wirelessly, preventing damanged plugs and most of all - preventing electric shock and external fires.
-![Safe Plug]({{ site.images }}{{ page.dir }}plug.png)
+![Safe Plug]({{ site.images }}{{ page.dir }}plug.jpg)

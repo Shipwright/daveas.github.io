@@ -15,7 +15,7 @@ published: true
 dir: tobacco-pipe/
 ---
 
-### Research:
+### Research
 
 There is a lot to know about pipes before you intend to make one of any kind. But to start off, I had to learn the basic parts of pipe, as pictured below:
 ![pipe parts]({{site.images}}{{ page.dir }}1.jpg)[^1]
@@ -91,7 +91,7 @@ You can view and edit the most recent version of this project [here](https://cad
 
 ---
 
-### Associated Products:
+### Associated Products
 
 My love for pipe smoking now has me interested in a suite of complementary products. I am considering an automated tobacco blending machine and a web and mobile app to order custom blends to your door. I also played around with a custom lighter and this tamp with a screw-set spring mechanism that would relieve at a set force to tamp tobacco uniformly:
 ![Custom Tamp]({{site.images}}{{ page.dir }}9.jpg)

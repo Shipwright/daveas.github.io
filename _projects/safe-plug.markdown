@@ -7,7 +7,7 @@ tags:
 - Sketching
 - Ideation
 excerpt: "I was fascinated by the idea of using indirect power transmission through magnetic resonance throughout a home. There are some technical barriers though, so this product would be designed as an entry level product to introduce the technology to the broader market."
-published: false
+published: true
 dir: safe-plug/
 ---
 

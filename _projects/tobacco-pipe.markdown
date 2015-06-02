@@ -78,7 +78,7 @@ One of the pipes that I find inspring is the [Stiff Pipe](http://stiffonline.com
 ![Stiff Pipe Measured]({{site.images}}{{ page.dir }}7.jpg)
 
 Here a photo rendering of the first asymmetric based design I made in Solidworks:
-![Pipe Rendering]({{site.images}}{{ page.dir }}1.jpg) (add new photo here)
+![Pipe Rendering]({{site.images}}{{ page.dir }}10.jpg)
 
 Eventually I realized I could place the magnets asymetrically and allow for a symmetric body which I thought was more visually appealing. As I got ready to 3D print a model I checked the printing tolerances:
 ![Pipe Rendering]({{site.images}}{{ page.dir }}8.jpg)

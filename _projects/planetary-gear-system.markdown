@@ -18,8 +18,8 @@ Drawing the actual curve of the involute tooth was the hardest part of this proj
 
 <div>Tap the file icons <label class="collapse" for="_1"><i class="fa fa-files-o"></i></label><input id="_1" type="checkbox"> to show the papers I studied for this project.
 <div style="width:100%">
-<iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/267406568/content?start_page=1&view_mode=scroll&show_recommendations=true" data-auto-height="false" data-aspect-ratio="undefined" scrolling="no" class="scribds frameborder="0"></iframe>
-<iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/267406640/content?start_page=1&view_mode=scroll&show_recommendations=true" data-auto-height="false" data-aspect-ratio="undefined" scrolling="no" class="scribds frameborder="0"></iframe>
+<iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/267406568/content?start_page=1&view_mode=scroll&show_recommendations=true" data-auto-height="false" data-aspect-ratio="undefined" scrolling="no" class="scribds" frameborder="0"></iframe>
+<iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/267406640/content?start_page=1&view_mode=scroll&show_recommendations=true" data-auto-height="false" data-aspect-ratio="undefined" scrolling="no" class="scribds" frameborder="0"></iframe>
 </div>
 </div>
 

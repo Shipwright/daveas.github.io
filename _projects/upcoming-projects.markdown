@@ -1,21 +1,20 @@
 ---
 layout: project
-title: Upcoming Projects
-date: 2015-03-24
+title: Upcoming Posts - Jekyll Sites
+date: 2015-06-01
 category: Programming, Design
 tags:
   - Jekyll
   - Web Design
-excerpt: There are a few projects I want to finish, this blog being one of them. Once I get two or three completed I plan to make a post for each one sharing both my process and the final works whether they be CAD files or source code. Check back later to see them!
+excerpt: There are a few Jekyll projects I want to finish, this blog being one of them. Once they are all finished I will share the finished products and several posts with things I learned along the way.
 published: true
 ---
-
-There are a few projects I want to finish, this blog being one of them. Once I get two or three completed I plan to make a post for each one sharing both my process and the final works whether they be CAD files or source code. Check back later to see them!
 
 Upcoming Posts:
 
 - My Jekyll Blog (this site)
-- Jekyll Template (boiler plate)
+- Jekyll Template (updated boiler plate)
 - Musician’s Jekyll Blog (for my dad)
 - Writer's Jekyll Blog (for a friend)
+- Realtor's Jekyll blog (for a client)
 - Favorite Jekyll hacks

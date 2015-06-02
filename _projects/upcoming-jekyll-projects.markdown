@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Upcoming Posts - Jekyll Sites
+title: Upcoming Jekyll Projects
 date: 2015-06-01
 category: Programming, Design
 tags:

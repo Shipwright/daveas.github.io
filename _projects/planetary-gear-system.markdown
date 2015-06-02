@@ -12,7 +12,7 @@ excerpt: "This planetary gear system was part of a project in my 3D CAD class in
 published: true
 ---
 
-### The Involute Gear Tooth:
+### The Involute Gear Tooth
 
 Drawing the actual curve of the involute tooth was the hardest part of this project.
 
@@ -23,10 +23,7 @@ Drawing the actual curve of the involute tooth was the hardest part of this proj
 </div>
 </div>
 
-
-
-
-### Assembly:
+### Assembly
 
 My team of four was assigned different parts of the assembly. My portion was the pinned connection which would allow the Sun gear to be stil while the Planet and Ring gears rotated around it. Here is a gif of that in action:
 

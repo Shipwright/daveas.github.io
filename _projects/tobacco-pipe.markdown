@@ -54,7 +54,7 @@ My first design is a fairly common 3/4" pipe bowl with a 1 1/4" deep chamber and
 
 ### Aesthetic & Interaction Design
 
-Some of my inital brainstorming drawings are below. You can see that aside from considering patentability I started off experimenting with asymetrical designs. I noticed while assmbling my Dyson that this is one of their key features of every part which made it a pleasure to put together. You will also see that I plan to use magnets and some sort of gasket seal to join the shank to the stem without the use of a mortise & tennon. There are three reasons for this:
+Some of my inital brainstorming drawings are below. You can see that aside from considering patentability I started off experimenting with asymmetrical designs. I noticed while assembling my Dyson that this is one of their key features of every part which made it a pleasure to put together. It also reduces user errors since you cannot put a part together incorrectly (this trick is commonly used to control quality in manufacturing as well). You will also see that I plan to use magnets and some sort of gasket seal to join the shank to the stem without the use of a mortise & tennon. There are three reasons for this:
 
 1. Upon heating the briar portion of the pipe expands and squeezes the tennon. This stress overtime can crack the pipe, and forces savvy pipe smokers to wait for the pipe to cool before dissassembly and cleaning.
 2. The user experience of squeezing the two pieces together and pulling them apart is cumbersome. I am a huge fan of magnets in interaction design like the Apple magcharger and I think a snap together stem & shank would be more simple
@@ -69,7 +69,7 @@ Asymmetric drawing:
 Considering IP, if any:
 ![patentability]({{site.images}}{{ page.dir }}4.jpg)
 
-I am a big fan of using natural numbers in design like e, pi, and phi. In the drawing below you can see I used the golden ratio (phi) to construct the almost wine-glass-like silhouette of the pipe bowl:
+I like to employ natural numbers in design like e, pi, and phi, over arbitrary values and ratios. In the drawing below you can see I used the golden ratio (phi) to construct the almost wine-glass-like silhouette of the pipe bowl:
 ![golden ratio]({{site.images}}{{ page.dir }}6.jpg)
 
 ### Drafting and Prototyping

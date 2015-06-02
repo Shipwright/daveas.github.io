@@ -8,7 +8,7 @@ tags:
 - Mechanical Engineering
 - Plastic
 - Metal
-excerpt: "This planetary gear system was part of a project in my 3D CAD class in college. The gears were cut with a waterjet and a chassis was created to rotate the gears in different variations. The gears were designed from scratch using an involut curve to profile the gear tooth."
+excerpt: "This planetary gear system was part of a project in my 3D CAD class in college. The gears were cut with a waterjet and a chassis was created to rotate the gears in different variations. The gears were designed from scratch using an involute curve to profile the gear tooth."
 published: true
 dir: gear-system/
 ---

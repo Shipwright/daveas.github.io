@@ -13,8 +13,8 @@ published: true
 Upcoming Posts:
 
 - My Jekyll Blog (this site)
-- Jekyll Template (updated boiler plate)
-- Musician’s Jekyll Blog (for my dad)
-- Writer's Jekyll Blog (for a friend)
-- Realtor's Jekyll blog (for a client)
+- [Template Jekyll Blog](http://template.daveas.me) (updated boiler plate)
+- [Musician’s Jekyll Blog](http://music.daveas.me) (for my dad)
+- [Writer's Jekyll Blog](http://writer.daveas.me) (for a friend)
+- [Business Jekyll blog](http://business.daveas.me) (for a client)
 - Favorite Jekyll hacks

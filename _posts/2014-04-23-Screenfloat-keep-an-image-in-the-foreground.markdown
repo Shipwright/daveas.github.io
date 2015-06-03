@@ -15,5 +15,3 @@ Applications for Mac may be mostly dead as mobile becomes dominant. But as Mirac
 Below you can see I used [Screenfloat](http://www.screenfloatapp.com/) (which lives in the menu bar) to snap a photo of a table in excel. That photo is no hovering over all other applications, including the word document I’m currently writing in.
 
 ![](http://postachio-images.s3-website-us-east-1.amazonaws.com/942f3d1dfda7ce8bba7dde518bb8465c.png)
-
-# Thanks Screenfloat

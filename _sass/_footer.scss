@@ -19,6 +19,7 @@
     padding: 0;
     list-style-type: none;
     li {
+      list-style-type: none;
       color: $gray-color;
       @include gray-links;
       display: block;

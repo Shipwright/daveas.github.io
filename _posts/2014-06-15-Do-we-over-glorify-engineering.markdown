@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Do we over-glorify engineering?
+title: Do We Over-Glorify Engineering?
 date: 2014-06-15
-category: writing
+category: Engineering
 tags:
 - Engineering
 excerpt: "For most engineers, 'engineering' is not quotidian. It usually matters a lot more if you can 'talk to people' rather than 'engineer things', as it goes with so many other jobs. I believe there are many jobs out there that"

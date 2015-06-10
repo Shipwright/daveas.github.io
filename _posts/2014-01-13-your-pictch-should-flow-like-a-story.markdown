@@ -2,7 +2,7 @@
 layout: post
 title: Your Pitch Should Flow Like a Story
 date: 2014-01-13
-category: archive
+category: Business
 tags:
 - Pitching
 - Startups

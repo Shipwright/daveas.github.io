@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Farewell to thee, Willow List
+title: Farewell to Thee, Willow List
 date: 2014-06-05
-category: writing
+category: Business
 tags:
 - Willowlist
 excerpt: "Last week I came to a difficult decision. I decided to pull the plug on our startup, Willow List. Willow List started after the summer before my senior year of college, when I read a book called The One Thing. This book challenged me"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Serious Startups & The 500k Raise
+title: Serious Startups and the 500k Raise
 date: 2013-12-16
 category: Business
 tags:

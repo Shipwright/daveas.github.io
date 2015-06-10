@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Never Pitch the Same Deck Twice
+title: You Business is Changing, Why Not Your Pitch?
 date: 2014-01-28
-category: archive
+category: Business
 tags:
 - Pitching
 - Startups

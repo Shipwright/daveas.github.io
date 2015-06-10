@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Learn to Code - Codeacademy vs. Treehouse
+title: Learning to Code - Codeacademy or Treehouse
 date: 2014-06-24
-category: writing
+category: Learning
 tags:
 - Coding
 - Learning

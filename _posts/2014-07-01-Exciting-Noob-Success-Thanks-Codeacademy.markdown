@@ -2,7 +2,7 @@
 layout: post
 title: Exciting Noob Success - Thanks Codeacademy!
 date: 2014-07-01
-category: writing
+category: Learning
 tags:
 - Coding
 - Learning

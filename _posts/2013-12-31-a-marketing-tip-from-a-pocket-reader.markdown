@@ -1,8 +1,8 @@
 ---
 layout: post
-title: My 2013 Pocket Stats - Top 5%
+title: A Marketing Tip from a Pocket Reader
 date: 2013-12-31
-category: archive
+category: Business
 tags:
 - Marketing
 - Customers
@@ -17,4 +17,8 @@ I was delighted last december when I received an email that said I had made it t
 Nice work!
 And if the pages from those books were stacked end to end, they'd make it past the top of the Empire State Building
 
-I was extremely impressed with this marketing effort. Pocket made me feel good about myself, and I won’t forget it!
+This message made me feel so good! And therein lies a great marketing lesson.
+
+If your product makes your user a [better version of his or her self](https://blog.bufferapp.com/people-dont-buy-products-they-buy-better-versions-of-themselves), and you can clearly communicate that value - then you have a rock solid marketing message. Especially when, like Pocket, you collect some data to create a unique and powerful message to an individual customer.
+
+So thank you pocket staff, for making me a better reader, and teaching me a great marketing lesson!

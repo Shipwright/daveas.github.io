@@ -2,7 +2,7 @@
 layout: post
 title: Wait, The Actual Holy Grail!
 date: 2014-02-12
-category: archive
+category: Business
 tags:
 - Cofounders
 - Startups

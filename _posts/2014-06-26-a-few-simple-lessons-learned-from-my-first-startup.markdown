@@ -1,8 +1,8 @@
 ---
 layout: post
-title: What I Learned from Starting a Business in College
+title: A Few Lessons Learned From My First Startup
 date: 2014-06-26
-category: writing
+category: Business
 tags:
 - Startups
 - Cofounders

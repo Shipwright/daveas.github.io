@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Back to Bootstrapping
+title: Lesson Learned, Bootstrap Your Startup
 date: 2014-01-04
-category: archive
+category: Business
 tags:
 - Startups
 - Funding

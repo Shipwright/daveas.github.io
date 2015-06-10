@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Multitasking with BetterSnapTool
+title: Make Your Desktop More Productive With One Tool
 date: 2014-11-04
-category: writing
+category: Productivity
 tags:
 - How I Work
 excerpt: "I have recently started to pick up some web design and web development skills because I want to create my own web applications. I was learning with One Month Rails and using a program called BetterSnapTool to organize my"

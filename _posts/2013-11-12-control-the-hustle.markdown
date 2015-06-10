@@ -2,7 +2,7 @@
 layout: post
 title: Entrepreneurs Don't Control the Game, They Control the Hustle
 date: 2013-11-12
-category: writing
+category: Business
 tags:
 - Willowlist
 - Startups

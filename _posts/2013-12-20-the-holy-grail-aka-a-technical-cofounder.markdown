@@ -1,20 +1,20 @@
 ---
 layout: post
-title: The Holy Grail (aka a Technical Co-Founder)
+title: The Holy Grail, aka, a Technical Co-Founder
 date: 2013-12-20
-category: archive
+category: Business
 tags:
 - Startups
 - Cofounders
 - Willowlist
-excerpt: "I mentioned I got to meet with my first VC right? Here’s a little excerpt from our first conversation: Me - “My name is Dave, I have an idea for a web enabled company but I need money to start it"
+excerpt: "I mentioned I got to meet with my first VC right? Here’s a little excerpt from our first conversation: Me - “My name is Dave, I have an idea for a web company but I need money to start it"
 ---
 
 ![montypythonandtheholygrail.jpg](http://postachio-images.s3-website-us-east-1.amazonaws.com/5ea097749a59260deab4d641abb3d3b2.jpg)
 
 I mentioned I got to meet with my first VC right? Here’s a little excerpt from our first conversation:
 
-> Me - “My name is Dave, I have an idea for a web enabled company but I need money to start it"  
+> Me - “My name is Dave, I have an idea for a web company but I need money to start it"  
 VC - “Sounds interesting, do you have a technical cofounder?"  
 Me - “No, but I think we could get away with a project lead for the first several months because..."  
 VC - “Your mother was a hamster and your father smelled of elderberries!"  

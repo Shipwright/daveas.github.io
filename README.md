@@ -4,8 +4,7 @@ I generally enjoy making things. I work for a company as a designer and engineer
 
 The design of my site is inspired by the sea, because I love to :sailboat:.
 
-Special thanks to these writers and creators:
-- [@lanyonm](http://github.com/lanyonm)
-- [@soffes](http://github.com/soffes)
-- [@alexcican](http://github.com/alexcican)
-- [@penso](http://github.com/penso)
+Special thanks to these creators for their posts & projects that I used:
+- [@lanyonm](http://github.com/lanyonm) (liquid)
+- [@alexcican](http://github.com/alexcican) (html/css)
+- [@cobyism](http://github.com/cobyism) (html/css)

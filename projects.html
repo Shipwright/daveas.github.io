@@ -7,13 +7,14 @@ permalink: /projects/
 <div class="home">
 
   <!-- POST LIST -->
+  <div class="grid">
   <ul class="post-list">
     {% capture cutoff_date %}{{ site.time | date: "%s" | minus: 94670800 }}{% endcapture %}
     {% assign projects = site.projects | sort: 'date' %}
     {% for project in projects reversed %}
     {% capture project_date %}{{ project.date | date: "%s" }}{% endcapture %}
     {% if project.published == true and project_date > cutoff_date %}
-    <li>
+    <li class="unit one-third">
       <h2><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h2>
       <p class="post-meta">{{ project.date | date: "%b %-d, %Y" }} • <i class="fa fa-clock-o"></i> {{ project.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
       <p>{{ project.excerpt }}</p>
@@ -21,6 +22,7 @@ permalink: /projects/
     {% endif %}
     {% endfor %}
   </ul>
+  </div>
 
     <!-- ARCHIVE -->
     <div class="center">
@@ -28,14 +30,14 @@ permalink: /projects/
         <h3 class="center">Archive <i class="fa fa-archive"></i></h3>
         <p class="center meta">(3 years or older)</p>
       </label><input id="_1" type="checkbox">
-      <div>
+      <div class="grid">
         <ul class="post-list">
           {% capture cutoff_date %}{{ site.time | date: "%s" | minus: 94670800 }}{% endcapture %}
           {% assign projects = site.projects | sort: 'date' %}
           {% for project in projects reversed %}
           {% capture project_date %}{{ project.date | date: "%s" }}{% endcapture %}
           {% if project.published == true and project_date <= cutoff_date %}
-          <li>
+          <li class="unit one-third">
             <h2><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h2>
             <p class="post-meta">{{ project.date | date: "%b %-d, %Y" }} • <i class="fa fa-clock-o"></i> {{ project.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
             <p>{{ project.excerpt }}</p>

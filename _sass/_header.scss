@@ -4,11 +4,11 @@
 
 .site-header {
   height: 100%;
-  color: brand-color;
+  color: $brand-color;
   text-align: center;
   background-color: $back-color;
   font-family: $head-font;
-  @include blue-links;
+  @include brand-links;
   padding-top: $spacing-unit*2;
   padding-bottom: $spacing-unit*2;
 }

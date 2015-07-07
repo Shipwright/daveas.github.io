@@ -4,16 +4,12 @@
 
 .site-header {
   height: 100%;
-  color: $brand-color;
-  text-align: center;
+  width: 100%;
+  // color: $brand-color;
+  // text-align: center;
   background-color: $back-color;
   font-family: $head-font;
   @include color-links;
-}
-
-.header-outside {
-  // height: 100%;
-  // width: 100%;
   margin: 0 auto;
   padding: 20px;
   display: flex;
@@ -23,7 +19,7 @@
   overflow: auto;
 }
 
-.header-inside {
+.site-masthead {
   padding: 20px;
   resize: both;
   overflow: auto;

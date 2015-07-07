@@ -9,11 +9,14 @@
   background-color: $back-color;
   font-family: $head-font;
   @include color-links;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
 }
 
 .site-title {
   color: $brand-color;
-  margin: 30% 1% 10% 1%;
   span {
     display: inline-block;
     border: 5px solid $brand-color;

@@ -10,7 +10,7 @@ layout: default
     <div class="post-list">
       {% assign posts = site.posts %}
       {% for post in posts limit:1 %}
-          <h2><a name="post">Latest Post</a>: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+          <h2><a class="anchor" name="post">Latest Post</a>: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • <i class="fa fa-clock-o"></i> {{ post.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
           {{ post.excerpt }}
       {% endfor %}
@@ -20,7 +20,7 @@ layout: default
       {% assign projects = site.projects | sort: 'date' %}
       {% for project in projects reversed %}
       {% if project.published == true %}
-          <h2><a name="project">Latest Project</a>: <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h2>
+          <h2><a class="anchor" name="project">Latest Project</a>: <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h2>
           <p class="post-meta">{{ project.date | date: "%b %-d, %Y" }} • <i class="fa fa-clock-o"></i> {{ project.content | number_of_words | divided_by: 300 | plus: 1 | ceil }} min</p>
           {{ project.excerpt }}
       {% break %}

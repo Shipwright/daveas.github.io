@@ -42,6 +42,10 @@
   font-family: $head-font;
 }
 
+.anchor {
+  @include text-links;
+}
+
 /**
  * Intro
  */

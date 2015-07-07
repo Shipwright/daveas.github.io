@@ -5,11 +5,10 @@
 .site-header {
   height: 100%;
   width: 100%;
-  text-align: center;
+  display: table;
   background-color: $back-color;
   font-family: $head-font;
   @include color-links;
-  display: table;
 }
 
 .site-masthead {

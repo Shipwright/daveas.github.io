@@ -9,10 +9,18 @@
   background-color: $back-color;
   font-family: $head-font;
   @include color-links;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  resize: vertical;
+}
+
+.header-outside {
+  height: 100%;
+  position: relative;
+}
+
+.header-inside {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .site-title {

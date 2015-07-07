@@ -6,9 +6,9 @@
   height: 100%;
   width: 100%;
   display: table;
-  background-color: $back-color;
+  background-color: $brand-color;
   font-family: $head-font;
-  @include color-links;
+  @include white-links;
 }
 
 .site-masthead {
@@ -18,11 +18,11 @@
 }
 
 .site-title {
-  color: $brand-color;
+  color: $back-color;
   display: block;
   margin: $spacing-unit auto;
   padding: 0 3px 0 3px;
-  border: 5px solid $brand-color;
+  border: 5px solid $back-color;
 }
 
 .site-nav {

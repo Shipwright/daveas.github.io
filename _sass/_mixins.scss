@@ -49,3 +49,13 @@
     }
   }
 }
+
+@mixin text-links {
+  a {
+    color: $text-color;
+    &:hover {
+      color: $text-color;
+    }
+  }
+}
+

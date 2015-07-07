@@ -11,7 +11,7 @@
   @include color-links;
 }
 
-.site-nav {
+.site-masthead {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -30,4 +30,8 @@
     margin: 0 auto;
     border: 5px solid $brand-color;
   }
+}
+
+.site-nav {
+  color: $gray-color;
 }

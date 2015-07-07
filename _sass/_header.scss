@@ -5,24 +5,17 @@
 .site-header {
   height: 100%;
   width: 100%;
-  // color: $brand-color;
-  // text-align: center;
+  text-align: center;
   background-color: $back-color;
   font-family: $head-font;
   @include color-links;
-  margin: 0 auto;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  resize: both;
-  overflow: auto;
+  display: table;
 }
 
 .site-masthead {
-  padding: 20px;
-  resize: both;
-  overflow: auto;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .site-title {

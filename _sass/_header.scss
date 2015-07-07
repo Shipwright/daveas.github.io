@@ -13,14 +13,21 @@
 
 .header-outside {
   height: 100%;
-  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+  overflow: auto;
 }
 
 .header-inside {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+  resize: both;
+  overflow: auto;
 }
 
 .site-title {

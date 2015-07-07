@@ -19,8 +19,8 @@
 
 .site-title {
   color: $brand-color;
-  padding-left: $spacing-unit/2;
-  padding-right: $spacing-unit/2;
+  padding-left: $spacing-unit/3;
+  padding-right: $spacing-unit/3;
   span {
     display: block;
     margin: 0 auto;
@@ -29,7 +29,7 @@
 }
 
 .site-nav {
-  margin-top: $spacing-unit;
+  padding-top: $spacing-unit;
   background-color: $back-color;
   color: $gray-color;
 }

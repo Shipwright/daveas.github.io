@@ -33,5 +33,9 @@
 }
 
 .site-nav {
+  position: relative;
+  display: inline-block;
+  margin-top: $spacing-unit;
+  padding-top: $spacing-unit;
   color: $gray-color;
 }

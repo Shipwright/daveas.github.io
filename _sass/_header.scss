@@ -9,17 +9,19 @@
   background-color: $back-color;
   font-family: $head-font;
   @include color-links;
-  padding-top: $spacing-unit*2;
+  padding-top: 25%;
   padding-bottom: $spacing-unit*2;
 }
 
 .site-title {
   display: inline-block;
   color: $brand-color;
-  border: 5px solid $brand-color;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: $spacing-unit*1.5;
+  padding-bottom: $spacing-unit*1.5;
+  span {
+      border: 5px solid $brand-color;
+  }
 }
 
 .site-nav {

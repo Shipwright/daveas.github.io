@@ -14,12 +14,12 @@
 }
 
 .site-title {
-  display: inline-block;
   color: $brand-color;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: $spacing-unit*1.5;
   span {
+      display: inline-block;
       border: 5px solid $brand-color;
   }
 }

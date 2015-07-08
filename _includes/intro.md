@@ -1,6 +1,3 @@
 ## Hi, I'm {{ site.author }}
 
-I like to [make things]({{site.github}}/resume). I also like to write about [what I'm learning]({{site.baseurl}}/posts), and share [what I'm working on]({{site.baseurl}}/projects). If you have an idea, I can help you [make it]({{site.github}}/freelance).
-
-
-
+I'm an Engineer living in TN with my wife, Kimberly. I [make things](/freelance) for a living, but I also like to write about [what I'm learning](/posts), and share [what I'm working on](/projects). If you have an idea you want made, I'd love to [hear about it](/freelance#idea).

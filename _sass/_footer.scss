@@ -8,9 +8,9 @@
   padding-top: $spacing-unit;
   background-color: $brand-color;
   @include white-links;
-  fa {
-    color: $brand-color;
-  }
+  // .fa {
+  //   color: $brand-color;
+  // }
 }
 
 .footer-meta {

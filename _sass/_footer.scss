@@ -3,31 +3,20 @@
 */
 
 .site-footer {
-  color: $gray-color;
+  color: $back-color;
   font-size: $small-font-size;
   text-align: center;
   padding-top: $spacing-unit;
-  background-color: $pop-color;
-  @include color-links;
+  background-color: $brand-color;
+  @include post-links;
 }
 
 .footer-meta {
   padding-top: $spacing-unit/2;
   padding-bottom: $spacing-unit;
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    li {
-      list-style-type: none;
-      color: $gray-color;
-      @include gray-links;
+  li {
+      color: $back-color;
+      @include white-links;
       display: block;
-      img {
-        width: 20px;
-        height: 20px;
-        display: inline-block;
-      }
-    }
   }
 }

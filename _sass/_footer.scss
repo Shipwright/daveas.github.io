@@ -7,10 +7,16 @@
   text-align: center;
   padding-top: $spacing-unit;
   background-color: $brand-color;
-  @include white-links;
-  // .fa {
-  //   color: $brand-color;
-  // }
+}
+
+.footer-social {
+  color: $link-color;
+  a {
+    color: $gray-color;
+    &:hover {
+      color: $pop-color;
+    }
+  }
 }
 
 .footer-meta {

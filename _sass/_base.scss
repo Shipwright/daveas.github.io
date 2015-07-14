@@ -211,7 +211,7 @@ h2 {
 }
 
 h3 {
-    font-Size: 30px;
+    font-size: 30px;
     @include media-query($on-palm) {
         font-size: 26px;
     }

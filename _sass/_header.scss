@@ -21,7 +21,7 @@
   color: $back-color;
   display: inline-block;
   margin: $spacing-unit auto;
-  padding: 0 5px;
+  padding: 0 $spacing-unit/2;
   border: 5px solid $back-color;
 }
 

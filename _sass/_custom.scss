@@ -146,10 +146,10 @@
 }
 
  .slideshares {
-   width: $content-width;
+   max-width: $content-width;
    height: $content-width*.75;
    @include media-query($on-palm) {
-     width: 500px;
+     max-width: 500px;
      height: 375px;
    }
  }
@@ -160,6 +160,10 @@
    @include media-query($on-palm) {
    }
  }
+
+ @-ms-viewport{
+  width: device-width;
+}
 
 
  /**

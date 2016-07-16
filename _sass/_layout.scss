@@ -12,6 +12,7 @@
 
 .post-list {
     text-align: left;
+    li {list-style-type:none};
     margin: 0px 0px $spacing-unit 0px;
     @include post-links;
 }

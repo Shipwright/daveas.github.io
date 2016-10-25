@@ -2,6 +2,7 @@
 title: Dave A Seeman
 author: Dave
 email: daveseeman12@gmail.com
+company: "http://fractalhardware.com"
 description: Stuff by Dave
 url: "http://daveaseeman.com"
 icon: /assets/images/icon.png
@@ -26,3 +27,4 @@ collections:
 gems:
   - jemoji
   - jekyll-sitemap
+  - github-pages

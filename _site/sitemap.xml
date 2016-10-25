@@ -1,140 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://daveas.me/posts/make-your-desktop-more-productive-with-one-tool/</loc>
-    <lastmod>2014-11-04T00:00:00-06:00</lastmod>
+    <loc>http://daveaseeman.com/404.html</loc>
   </url>
   <url>
-    <loc>http://daveas.me/posts/why-every-tech-startup-founder-should-learn-some-code/</loc>
-    <lastmod>2014-09-24T00:00:00-05:00</lastmod>
+    <loc>http://daveaseeman.com/</loc>
   </url>
   <url>
-    <loc>http://daveas.me/posts/exciting-noob-success-thanks-codeacademy/</loc>
-    <lastmod>2014-07-01T00:00:00-05:00</lastmod>
+    <loc>http://daveaseeman.com/posts/</loc>
   </url>
   <url>
-    <loc>http://daveas.me/posts/a-few-simple-lessons-learned-from-my-first-startup/</loc>
-    <lastmod>2014-06-26T00:00:00-05:00</lastmod>
+    <loc>http://daveaseeman.com/projects/</loc>
   </url>
   <url>
-    <loc>http://daveas.me/posts/learning-to-code-codeacademy-or-treehouse/</loc>
-    <lastmod>2014-06-24T00:00:00-05:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/do-we-over-glorify-engineering/</loc>
-    <lastmod>2014-06-15T00:00:00-05:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/farewell-to-thee-willow-list/</loc>
-    <lastmod>2014-06-05T00:00:00-05:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/engineers-as-entrepreneurs/</loc>
-    <lastmod>2014-05-02T00:00:00-05:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/stay-productive-with-floating-screenshots/</loc>
-    <lastmod>2014-04-23T00:00:00-05:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/how-to-avoid-being-pidgeon-holed-by-investors/</loc>
-    <lastmod>2014-02-27T00:00:00-06:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/wait-the-actual-holy-grail/</loc>
-    <lastmod>2014-02-12T00:00:00-06:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/your-business-is-changing-why-not-your-pitch/</loc>
-    <lastmod>2014-01-28T00:00:00-06:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/answering-investor-questions-with-strength-and-grace/</loc>
-    <lastmod>2014-01-15T00:00:00-06:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/your-pictch-should-flow-like-a-story/</loc>
-    <lastmod>2014-01-13T00:00:00-06:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/lesson-learned-bootstrap-your-startup/</loc>
-    <lastmod>2014-01-04T00:00:00-06:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/a-marketing-tip-from-a-pocket-reader/</loc>
-    <lastmod>2013-12-31T00:00:00-06:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/the-holy-grail-aka-a-technical-cofounder/</loc>
-    <lastmod>2013-12-20T00:00:00-06:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/serious-startups-and-the-500k-raise/</loc>
-    <lastmod>2013-12-16T00:00:00-06:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/doodling-and-my-first-meeting-with-a-vc/</loc>
-    <lastmod>2013-12-04T00:00:00-06:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/entrepreneurs-dont-control-the-game-they-control-the-hustle/</loc>
-    <lastmod>2013-11-12T00:00:00-06:00</lastmod>
-  </url>
-  <url>
-    <loc>http://daveas.me/404.html</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/about/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/posts/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/projects/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/tags/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/projects/coffee-mug/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/projects/down-wind-ventures/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/projects/google-type/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/projects/jekyll-blog/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/projects/laborator-e/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/projects/laptop-board/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/projects/planetary-gear-system/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/projects/safe-plug/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/projects/scr-lift-cage/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/projects/tobacco-pipe/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/projects/upcoming-jekyll-projects/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/projects/wheelchair-ramp/</loc>
-  </url>
-  <url>
-    <loc>http://daveas.me/projects/willlow-list-pitch/</loc>
+    <loc>http://daveaseeman.com/tags/</loc>
   </url>
 </urlset>

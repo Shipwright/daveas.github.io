@@ -123,4 +123,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (~> 35)
+  github-pages
+  jekyll-sitemap
+  jemoji
+
+BUNDLED WITH
+   1.13.4

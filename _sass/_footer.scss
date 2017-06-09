@@ -19,6 +19,7 @@
   }
 }
 
+
 .footer-meta {
   padding-top: $spacing-unit/2;
   padding-bottom: $spacing-unit;
@@ -28,7 +29,7 @@
     list-style-type: none;
     li {
       color: $back-color;
-      @include white-links;  
+      @include white-links;
     }
   }
 }

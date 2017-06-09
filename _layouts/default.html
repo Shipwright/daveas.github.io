@@ -6,17 +6,19 @@
   {% include analytics.html %}
 </head>
 
-  <body>
+  <body class="site-header">
 
-    {% include header.html %}
+      <div class="site-masthead">
+          {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+          <div class="page-content">
+            <div class="wrapper">
+              {{ content }}
+            </div>
+          </div>
+
+          {% include footer.html %}
       </div>
-    </div>
-
-    {% include footer.html %}
 
   </body>
 
